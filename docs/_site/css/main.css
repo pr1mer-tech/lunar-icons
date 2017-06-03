@@ -102,6 +102,7 @@ nav {
 header {
   background-color: #4E54BF;
   height: 100vh;
+  min-height: 600px;
   position: relative; }
   header img {
     width: 500px;
@@ -186,11 +187,9 @@ footer {
   clear: both; }
 
 /*==============================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
+   Media Queries for Responsive Design.
 ==============================================================================*/
-@media (max-width: 800px) {
+@media (max-width: 840px) {
   nav ul li, footer ul li {
     display: block;
     width: 250px;
@@ -224,7 +223,22 @@ footer {
     nav ul li {
       border-bottom-color: rgba(255, 255, 255, 0.2);
       text-align: center;
-      padding: 24px 0; } }
+      padding: 24px 0; }
+
+  header {
+    min-height: 100vmax; }
+    header img {
+      width: 75%; }
+
+  footer {
+    overflow: hidden; }
+    footer img {
+      width: 200%;
+      margin: 0 -50% -1px; } }
+@media (max-width: 480px) {
+  footer {
+    width: 300%;
+    margin: 0 -100% -1px; } }
 /*==============================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
