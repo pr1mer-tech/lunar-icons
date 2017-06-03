@@ -1,0 +1,21 @@
+# markdown adn highlighter
+markdown:    kramdown
+highlighter: rouge
+
+# permalinks
+permalink:  pretty
+
+# Server
+url:        lucasgruwez.github.io
+baseurl:    /lunar-icons
+
+# Custom variables
+version:    v1.0.0
+cdn:        https://unpkg.com/lunar-icons
+repo:       https://github.com/lucasgruwez/lunar-icons
+download:   https://github.com/lucasgruwez/lunar-icons/releases/download/v1.0.0/lunar-icons.min.css
+docs:       https://github.com/lucasgruwez/lunar-icons/wiki
+stargazers: https://github.com/lucasgruwez/lunar-icons/stargazers
+
+npm:        https://npmjs.com/package/lunar-icons
+author:     https://github.com/lucasgruwez
