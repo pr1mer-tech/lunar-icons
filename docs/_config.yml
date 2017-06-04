@@ -6,6 +6,7 @@ highlighter: rouge
 permalink:  pretty
 
 # Server
+port:       3141
 url:        lucasgruwez.github.io
 baseurl:    /lunar-icons
 
