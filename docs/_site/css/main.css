@@ -73,14 +73,12 @@ nav {
   right: 0;
   padding: 24px 0;
   z-index: 1000;
-  background-color: rgba(78, 84, 191, 0.6); }
-  nav.colored {
-    background-color: #4E54BF; }
+  background-color: #4E54BF; }
   nav .logo {
     height: 52px; }
   nav .container {
     position: relative; }
-  nav .menu {
+  nav #menuToggle {
     display: none; }
   nav ul {
     list-style-type: none;
@@ -199,27 +197,30 @@ footer {
     nav ul li:last-child, footer ul li:last-child {
       border-bottom: none; }
 
-  nav .menu {
+  nav #menuToggle {
     display: block;
     position: absolute;
     right: 0;
     top: 50%;
     transform: translate(0, -50%);
-    height: 52px; }
+    background-color: transparent;
+    border: none;
+    cursor: pointer; }
+    nav #menuToggle .menu {
+      height: 52px; }
 
   nav ul {
     left: -400px;
     right: -400px;
     top: 76px;
-    background-color: rgba(78, 84, 191, 0.6);
+    background-color: #4E54BF;
     transform: translate(0);
     height: 0;
-    transition: all 500ms ease-in-out;
     overflow: hidden; }
+    nav ul.animate {
+      transition: all 500ms ease-in-out; }
     nav ul.visible {
       height: 295px; }
-    nav ul.colored {
-      background-color: #4E54BF; }
     nav ul li {
       border-bottom-color: rgba(255, 255, 255, 0.2);
       text-align: center;

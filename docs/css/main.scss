@@ -114,11 +114,7 @@ nav {
   right: 0;
   padding: 24px 0;
   z-index: 1000;
-  background-color: rgba($brand, .6);
-
-  &.colored {
-    background-color: $brand;
-  }
+  background-color: $brand;
 
   .logo {
     height: 52px;
@@ -128,7 +124,7 @@ nav {
     position: relative;
   }
 
-  .menu {
+  #menuToggle {
     display: none;
   }
 
@@ -312,31 +308,36 @@ footer {
     }
   }
 
-  nav .menu {
+  nav #menuToggle {
     display: block;
     position: absolute;
     right: 0;
     top: 50%;
     transform: translate(0, -50%);
-    height: 52px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+    .menu {
+      height: 52px;
+    }
   }
 
   nav ul {
     left: -400px;
     right: -400px;
     top: 76px;
-    background-color: rgba($brand, .6);
+    background-color: $brand;
     transform: translate(0);
     height: 0;
-    transition: all 500ms ease-in-out;
     overflow: hidden;
+
+    &.animate {
+      transition: all 500ms ease-in-out;
+    }
 
     &.visible {
       height: 295px;
-    }
-
-    &.colored {
-      background-color: $brand;
     }
 
     li {
@@ -345,18 +346,18 @@ footer {
       padding: 24px 0;
     }
   }
-  
+
   header {
     min-height: 100vmax;
-     
+
     img {
       width: 75%;
     }
   }
-  
+
   footer {
     overflow: hidden;
-    
+
     img {
       width: 200%;
       margin: 0 -50% -1px;
