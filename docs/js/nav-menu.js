@@ -1,7 +1,7 @@
 class navMenu {
   constructor() {
     this.linkEl   = document.querySelectorAll('nav ul li a');
-    this.toggleEl = document.querySelector('#menuToggle')
+    this.toggleEl = document.querySelector('#menuToggle');
     this.menuEl   = document.querySelector('nav ul');
     this.headerEl = document.querySelector('header');
     this.footerEl = document.querySelector('footer');
@@ -24,7 +24,7 @@ class navMenu {
       this.linkEl[i].addEventListener('click', this.hideMenu);
     }
     this.toggleEl.addEventListener('click', this.toggleMenu);
-    window.addEventListener('resize', this.handleResize)
+    window.addEventListener('resize', this.handleResize);
   }
 
   _contentInert(bool) {
@@ -40,7 +40,7 @@ class navMenu {
       this.showMenu();
       this._contentInert(false);
     } else {
-      this.menuEl.classList.remove('animate')
+      this.menuEl.classList.remove('animate');
       this.hideMenu();
     }
   }
@@ -61,7 +61,11 @@ class navMenu {
   }
 
   toggleMenu() {
-    this.isVisible ? this.hideMenu() : this.showMenu();
+    if (this.isVisible === true) {
+      this.hideMenu();
+    } else {
+      this.showMenu();
+    }
   }
 }
 
