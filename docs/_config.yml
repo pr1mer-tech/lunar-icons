@@ -11,7 +11,7 @@ url:        lucasgruwez.github.io
 baseurl:    /lunar-icons
 
 # Custom variables
-version:    v1.0.0
+version:    v1.0.0-alpha.1
 cdn:        https://unpkg.com/lunar-icons
 repo:       https://github.com/lucasgruwez/lunar-icons
 download:   https://github.com/lucasgruwez/lunar-icons/releases/download/v1.0.0/lunar-icons.min.css

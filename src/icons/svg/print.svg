@@ -1,0 +1,22 @@
+<svg width="24" height="22" viewBox="0 0 24 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>print</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-432 -49)">
+<g id="print">
+<g id="Union">
+<use xlink:href="#path0_fill" transform="translate(432 49.25)"/>
+<use xlink:href="#path1_fill" transform="translate(432 49.25)"/>
+<use xlink:href="#path2_fill" transform="translate(432 49.25)"/>
+<use xlink:href="#path3_fill" transform="translate(432 49.25)"/>
+<use xlink:href="#path4_fill" transform="translate(432 49.25)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 5 0L 6 0L 18 0L 19 0L 19 1L 19 4L 17 4L 17 2L 7 2L 7 4L 5 4L 5 1L 5 0Z"/>
+<path id="path1_fill" d="M 1 5C 0.447723 5 0 5.44772 0 6L 0 15C 0 15.5523 0.447723 16 1 16L 4 16L 4 14L 2 14L 2 7L 22 7L 22 14L 20 14L 20 16L 23 16C 23.5523 16 24 15.5523 24 15L 24 6C 24 5.44772 23.5523 5 23 5L 1 5Z"/>
+<path id="path2_fill" d="M 5 12L 5 20.5L 5 21.5L 6 21.5L 18 21.5L 19 21.5L 19 20.5L 19 12L 17 12L 17 19.5L 7 19.5L 7 12L 5 12Z"/>
+<path id="path3_fill" d="M 8.5 15.25L 15.5 15.25L 15.5 14.25L 8.5 14.25L 8.5 15.25Z"/>
+<path id="path4_fill" d="M 8.5 17.75L 15.5 17.75L 15.5 16.75L 8.5 16.75L 8.5 17.75Z"/>
+</defs>
+</svg>

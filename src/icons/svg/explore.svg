@@ -1,0 +1,16 @@
+<svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>explore</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-432 -80)">
+<g id="explore">
+<g id="Union">
+<use xlink:href="#path0_fill" transform="translate(432 80)"/>
+<use xlink:href="#path1_fill" transform="translate(432 80)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 17.4253 7.87998C 17.7394 7.06315 16.9369 6.26057 16.12 6.57473L 9.64102 9.06666L 9.2262 9.2262L 9.06665 9.64102L 6.57474 16.12C 6.26056 16.9369 7.06314 17.7394 7.87997 17.4253L 14.359 14.9333L 14.7738 14.7738L 14.9333 14.359L 17.4253 7.87998ZM 10.381 11.7952L 12.2048 13.619L 9.24106 14.7589L 10.381 11.7952Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 24 12C 24 18.6274 18.6274 24 12 24C 5.37259 24 0 18.6274 0 12C 0 5.37258 5.37259 0 12 0C 18.6274 0 24 5.37258 24 12ZM 11 21.9506L 11 20.5L 13 20.5L 13 21.9506C 17.7244 21.4816 21.4816 17.7244 21.9506 13L 20.5 13L 20.5 11L 21.9506 11C 21.4816 6.27558 17.7244 2.51845 13 2.04938L 13 3.5L 11 3.5L 11 2.04938C 6.27557 2.51845 2.51843 6.27558 2.04938 11L 3.5 11L 3.5 13L 2.04938 13C 2.51843 17.7244 6.27557 21.4816 11 21.9506Z"/>
+</defs>
+</svg>

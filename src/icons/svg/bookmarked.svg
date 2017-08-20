@@ -1,0 +1,14 @@
+<svg width="14" height="23" viewBox="0 0 14 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>bookmarked</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-501 -16)">
+<g id="bookmarked">
+<g id="Union">
+<use xlink:href="#path0_fill" transform="translate(501 16)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 1 0L 0 0L 0 1L 0 22C 0 22.3581 0.191437 22.6888 0.501953 22.8671C 0.812439 23.0455 1.19458 23.0442 1.50388 22.8638L 7 19.6577L 12.4962 22.8638C 12.8054 23.0442 13.1876 23.0455 13.498 22.8671C 13.8085 22.6888 14 22.3581 14 22L 14 1L 14 0L 13 0L 1 0Z"/>
+</defs>
+</svg>

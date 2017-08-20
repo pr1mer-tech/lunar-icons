@@ -1,0 +1,16 @@
+<svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>copyright</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-432 -48)">
+<g id="copyright">
+<g id="Union">
+<use xlink:href="#path0_fill" transform="translate(432 48)"/>
+<use xlink:href="#path1_fill" transform="translate(432 48)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 8 12C 8 9.79086 9.79086 8 12 8C 13.1945 8 14.2658 8.52237 15.0003 9.35445L 16.4997 8.03099C 15.4018 6.78701 13.7922 6 12 6C 8.68628 6 6 8.68629 6 12C 6 15.3137 8.68628 18 12 18C 13.7922 18 15.4018 17.213 16.4997 15.969L 15.0003 14.6455C 14.2658 15.4776 13.1945 16 12 16C 9.79086 16 8 14.2091 8 12Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 24 12C 24 18.6274 18.6274 24 12 24C 5.37259 24 0 18.6274 0 12C 0 5.37258 5.37259 0 12 0C 18.6274 0 24 5.37258 24 12ZM 22 12C 22 17.5229 17.5229 22 12 22C 6.47714 22 2 17.5229 2 12C 2 6.47715 6.47714 2 12 2C 17.5229 2 22 6.47715 22 12Z"/>
+</defs>
+</svg>

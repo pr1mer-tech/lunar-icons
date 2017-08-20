@@ -1,0 +1,31 @@
+{
+  "name": "lunar-icons",
+  "version": "1.0.0-alpha.1",
+  "description": "A beautifully designed icon pack, made with ❤  by @lucasgruwez.",
+  "main": "dist/lunar-icons.css",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {
+    "gulp": "~3.9.1",
+    "gulp-svgmin": "^1.2.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucasgruwez/lunar-icons.git"
+  },
+  "keywords": [
+    "icons",
+    "svg",
+    "icon-font"
+  ],
+  "author": "Lucas Gruwez <gruwez.lucas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucasgruwez/lunar-icons/issues"
+  },
+  "dependencies": {}
+}

@@ -56,7 +56,7 @@ textarea {
 /*==============================================================================
    Custom styles
 ==============================================================================*/
-/*! Lunar Icons v1.0.0 | MIT License | lucasgruwez.github.io/lunar-icons */
+/*! Lunar Icons v1.0.0 | MIT License | http://localhost:4000/lunar-icons */
 * {
   box-sizing: border-box; }
 
@@ -64,6 +64,9 @@ body {
   font-family: "Prompt", sans-serif;
   background-color: #0A0B1A;
   color: #FFFFFF; }
+
+.lunar {
+  font-family: 'Lunar Icons'; }
 
 nav {
   height: 100px;
@@ -95,13 +98,15 @@ nav {
       nav ul li a {
         text-decoration: none;
         color: #FFFFFF;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        letter-spacing: 1px; }
 
 header {
   background-color: #4E54BF;
   height: 100vh;
   min-height: 600px;
-  position: relative; }
+  position: relative;
+  margin-bottom: 96px; }
   header img {
     width: 500px;
     position: absolute;
@@ -109,11 +114,60 @@ header {
     left: 50%;
     transform: translate(-50%, -50%); }
 
-h1 {
-  font-size: 64px;
+main h1 {
+  font-size: 32px;
   font-weight: 400;
-  text-align: center;
-  margin: 96px 0; }
+  text-align: center; }
+main section#features {
+  text-align: center; }
+  main section#features a {
+    color: #fff; }
+main section#cta {
+  background-color: #4E54BF;
+  padding: 96px 0;
+  margin: 96px 0;
+  text-align: center; }
+  main section#cta .btn {
+    background-color: #FFFFFF;
+    color: #4E54BF;
+    border-radius: 2pt;
+    font-size: 24px;
+    padding: 15px 35px;
+    text-decoration: none;
+    border: 2px solid #FFFFFF; }
+    main section#cta .btn.inverted {
+      background-color: transparent;
+      color: #FFFFFF; }
+main section#icons {
+  margin-bottom: 256px; }
+  main section#icons h3 {
+    margin: 16px 10px;
+    font-weight: 400;
+    font-size: 24px; }
+    main section#icons h3 button {
+      background-color: transparent;
+      text-decoration: none;
+      color: #FFFFFF;
+      border: none;
+      display: block;
+      cursor: pointer; }
+  main section#icons .icon {
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-family: 'Roboto Slab', monospace;
+    text-decoration: none;
+    text-align: right;
+    color: #FFFFFF;
+    padding: 16px;
+    position: relative;
+    cursor: pointer;
+    border: none; }
+    main section#icons .icon i {
+      position: absolute;
+      left: 16px;
+      top: 50%;
+      margin-top: -.75em;
+      font-size: 24px; }
 
 footer {
   color: rgba(10, 11, 26, 0.6);
@@ -140,7 +194,8 @@ footer {
       footer ul li a {
         text-decoration: none;
         color: rgba(10, 11, 26, 0.6);
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        letter-spacing: 1px; }
 
 /*==============================================================================
    Helper

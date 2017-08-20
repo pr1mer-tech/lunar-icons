@@ -106,6 +106,10 @@ body {
   color: $white;
 }
 
+.lunar {
+  font-family: 'Lunar Icons';
+}
+
 nav {
   height: 100px;
   position: fixed;
@@ -146,6 +150,7 @@ nav {
         text-decoration: none;
         color: $white;
         text-transform: uppercase;
+        letter-spacing: 1px;
       }
     }
   }
@@ -156,6 +161,7 @@ header {
   height: 100vh;
   min-height: 600px;
   position: relative;
+  margin-bottom: 96px;
 
   img {
     width: 500px;
@@ -166,11 +172,83 @@ header {
   }
 }
 
-h1 {
-  font-size: 64px;
-  font-weight: 400;
-  text-align: center;
-  margin: 96px 0;
+main {
+
+  h1 {
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  section#features {
+    text-align: center;
+
+    a {
+      color: #fff;
+    }
+  }
+
+  section#cta {
+    background-color: $brand;
+    padding: 96px 0;
+    margin: 96px 0;
+    text-align: center;
+
+    .btn {
+      background-color: $white;
+      color: $brand;
+      border-radius: 2pt;
+      font-size: 24px;
+      padding: 15px 35px;
+      text-decoration: none;
+      border: 2px solid $white;
+
+      &.inverted {
+        background-color: transparent;
+        color: $white;
+      }
+    }
+  }
+
+  section#icons {
+    margin-bottom: 256px;
+
+    h3 {
+      margin: 16px 10px;
+      font-weight: 400;
+      font-size: 24px;
+
+      button {
+        background-color: transparent;
+        text-decoration: none;
+        color: $white;
+        border: none;
+        display: block;
+        cursor: pointer;
+      }
+    }
+
+    .icon {
+      border-radius: 4px;
+      background-color: rgba($white, .1);
+      font-family: 'Roboto Slab', monospace;
+      text-decoration: none;
+      text-align: right;
+      color: $white;
+      padding: 16px;
+      position: relative;
+      cursor: pointer;
+      border: none;
+
+      i {
+        position: absolute;
+        left: 16px;
+        top: 50%;
+        margin-top: -.75em;
+        font-size: 24px;
+      }
+    }
+  }
 }
 
 footer {
@@ -209,6 +287,7 @@ footer {
         text-decoration: none;
         color: rgba($black, .6);
         text-transform: uppercase;
+        letter-spacing: 1px;
       }
     }
   }

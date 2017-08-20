@@ -69,7 +69,9 @@ typings/
 # dotenv environment variables file
 .env
 
+# package-lock file
+package-lock.json
 
 # End of https://www.gitignore.io/api/git,node,jekyll
 
-/icons
+src/*.txt

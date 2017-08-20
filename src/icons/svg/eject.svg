@@ -1,0 +1,16 @@
+<svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>eject</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-400 -80)">
+<g id="eject">
+<g id="Union">
+<use xlink:href="#path0_fill" transform="translate(400 80)"/>
+<use xlink:href="#path1_fill" transform="translate(400 80)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 22.1538 15L 22.2633 15.1186L 22.858 15.7628L 23.2254 16.1609C 23.5211 16.4811 23.2939 17 22.858 17L 22.3163 17L 21.4396 17L 21.2782 17L 2.7218 17L 2.56036 17L 1.68365 17L 1.14197 17C 0.706116 17 0.478943 16.4811 0.774567 16.1609L 1.14197 15.7628L 1.73663 15.1186L 1.84613 15L 11.6326 4.39802C 11.8306 4.18354 12.1694 4.18354 12.3674 4.39802L 22.1538 15ZM 12 6.94864L 19.432 15L 4.56796 15L 12 6.94864Z"/>
+<path id="path1_fill" d="M 0 19L 0 21L 24 21L 24 19L 0 19Z"/>
+</defs>
+</svg>

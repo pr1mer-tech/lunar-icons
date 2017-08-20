@@ -1,0 +1,16 @@
+<svg width="20" height="24" viewBox="0 0 20 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>unlocked</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-466 -16)">
+<g id="unlocked">
+<g id="Union">
+<use xlink:href="#path0_fill" transform="translate(466 16)"/>
+<use xlink:href="#path1_fill" transform="translate(466 16)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 10.7638 17.2913C 11.2045 17.03 11.5 16.5495 11.5 16C 11.5 15.1716 10.8284 14.5 10 14.5C 9.17157 14.5 8.5 15.1716 8.5 16C 8.5 16.5495 8.79547 17.03 9.23624 17.2913L 8.5 19.5L 11.5 19.5L 10.7638 17.2913Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 4 8C 4 4.68629 6.68628 2 10 2C 13.3137 2 16 4.68629 16 8L 16 10L 1 10C 0.447723 10 0 10.4477 0 11L 0 23C 0 23.5523 0.447723 24 1 24L 19 24C 19.5523 24 20 23.5523 20 23L 20 11C 20 10.4477 19.5523 10 19 10L 18 10L 18 8C 18 3.58172 14.4183 0 10 0C 5.58173 0 2 3.58172 2 8L 4 8ZM 16 12L 2 12L 2 22L 18 22L 18 12L 16 12Z"/>
+</defs>
+</svg>

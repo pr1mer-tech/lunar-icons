@@ -1,0 +1,16 @@
+<svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>history</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-400 -112)">
+<g id="history">
+<g id="Union">
+<use xlink:href="#path0_fill" transform="translate(400 112)"/>
+<use xlink:href="#path1_fill" transform="translate(400 112)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 12 2C 6.47714 2 2 6.47715 2 12C 2 15.4953 3.79309 18.5732 6.51291 20.3617L 6.85049 19.7769L 7.75583 18.2088L 8.22446 19.9578L 8.7735 22.0069L 8.96759 22.7313L 8.24316 22.9254L 6.19412 23.4745L 4.44516 23.9431L 5.35049 22.375L 5.51154 22.0961C 2.19736 19.9619 0 16.2383 0 12C 0 5.37258 5.37259 0 12 0C 18.6274 0 24 5.37258 24 12C 24 18.6274 18.6274 24 12 24L 12 22C 17.5229 22 22 17.5228 22 12C 22 6.47715 17.5229 2 12 2Z"/>
+<path id="path1_fill" d="M 11 13L 11 6L 13 6L 13 12.323L 17.3714 14.0715L 16.6286 15.9285L 11.6286 13.9285L 11 13.677L 11 13Z"/>
+</defs>
+</svg>

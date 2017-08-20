@@ -1,0 +1,16 @@
+<svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>zoom out</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-432 -112)">
+<g id="zoom out">
+<g id="Union">
+<use xlink:href="#path0_fill" transform="translate(432.115 112)"/>
+<use xlink:href="#path1_fill" transform="translate(432.115 112)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 11.8848 9.25L 18.8848 9.25L 18.8848 7.75L 11.8848 7.75L 11.8848 9.25Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 23.8848 8.50155C 23.8848 13.1968 20.0786 17.0031 15.3833 17.0031C 13.4819 17.0031 11.7264 16.3789 10.3103 15.3243L 1.76962 23.883L 0 22.1171L 8.5452 13.5539C 7.49985 12.1415 6.88171 10.3937 6.88171 8.50155C 6.88171 3.80627 10.688 0 15.3833 0C 20.0786 0 23.8848 3.80627 23.8848 8.50155ZM 21.8848 8.50155C 21.8848 12.0923 18.974 15.0031 15.3833 15.0031C 11.7925 15.0031 8.88171 12.0923 8.88171 8.50155C 8.88171 4.91084 11.7925 2 15.3833 2C 18.974 2 21.8848 4.91084 21.8848 8.50155Z"/>
+</defs>
+</svg>

@@ -12,8 +12,10 @@ class navMenu {
 
     this.showMenu     = this.showMenu.bind(this);
     this.hideMenu     = this.hideMenu.bind(this);
+    this.linkClick    = this.linkClick.bind(this)
     this.toggleMenu   = this.toggleMenu.bind(this);
     this.handleResize = this.handleResize.bind(this);
+    this.handleScroll = this.handleScroll.bind(this);
 
     this._addEventListeners();
     this.handleResize();
@@ -21,10 +23,11 @@ class navMenu {
 
   _addEventListeners() {
     for (var i = 0; i < this.linkEl.length; i++) {
-      this.linkEl[i].addEventListener('click', this.hideMenu);
+      this.linkEl[i].addEventListener('click', this.linkClick);
     }
     this.toggleEl.addEventListener('click', this.toggleMenu);
     window.addEventListener('resize', this.handleResize);
+    window.addEventListener('scroll', this.handleScroll);
   }
 
   _contentInert(bool) {
@@ -42,6 +45,16 @@ class navMenu {
     } else {
       this.menuEl.classList.remove('animate');
       this.hideMenu();
+    }
+  }
+
+  handleScroll() {
+    this.viewportW = window.innerWidth;
+
+    if (this.viewportW < 840) {
+      this.menuEl.classList.remove('animate');
+      this.hideMenu();
+      this._contentInert(false);
     }
   }
 
@@ -65,6 +78,13 @@ class navMenu {
       this.hideMenu();
     } else {
       this.showMenu();
+    }
+  }
+
+  linkClick() {
+    this.viewportW = window.innerWidth;
+    if (this.viewportW < 840) {
+      this.hideMenu();
     }
   }
 }
