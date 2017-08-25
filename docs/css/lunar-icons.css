@@ -1,31 +1,25 @@
 @font-face {
-  font-family: 'Lunar Icons';
-  src:  url('fonts/Lunar-Icons.eot?1a3ppt');
-  src:  url('fonts/Lunar-Icons.eot?1a3ppt#iefix') format('embedded-opentype'),
-    url('fonts/Lunar-Icons.ttf?1a3ppt') format('truetype'),
-    url('fonts/Lunar-Icons.woff?1a3ppt') format('woff'),
-    url('fonts/Lunar-Icons.svg?1a3ppt#Lunar-Icons') format('svg');
+  font-family: 'Lunar-Icons';
+  src:  url('fonts/Lunar-Icons.eot?wprxlo');
+  src:  url('fonts/Lunar-Icons.eot?wprxlo#iefix') format('embedded-opentype'),
+    url('fonts/Lunar-Icons.ttf?wprxlo') format('truetype'),
+    url('fonts/Lunar-Icons.woff?wprxlo') format('woff'),
+    url('fonts/Lunar-Icons.svg?wprxlo#Lunar-Icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-i.lunar-icons {
+i.lunar-icons, .icomoon-liga {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'Lunar Icons' !important;
+  font-family: 'Lunar-Icons' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
+  line-height: 1;
 
-  /* Makes sure that all icons have the same width ========================== */
-  display: inline-block;
-  width: 1.5em;
-  height: 1.5em;
-  line-height: 1.5em;
-  text-align: center;
-
-  /* Enable Ligatures ======================================================= */
+  /* Enable Ligatures ================ */
   letter-spacing: 0;
   -webkit-font-feature-settings: "liga";
   -moz-font-feature-settings: "liga=1";
@@ -35,7 +29,140 @@ i.lunar-icons {
   -webkit-font-variant-ligatures: discretionary-ligatures;
   font-variant-ligatures: discretionary-ligatures;
 
-  /* Better Font Rendering ================================================== */
+  /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.li-add:before {
+  content: "\e920";
+}
+.li-bluetooth:before {
+  content: "\e921";
+}
+.li-clear:before {
+  content: "\e922";
+}
+.li-copy:before {
+  content: "\e923";
+}
+.li-cut:before {
+  content: "\e924";
+}
+.li-link:before {
+  content: "\e925";
+}
+.li-paste:before {
+  content: "\e926";
+}
+.li-remove:before {
+  content: "\e927";
+}
+.li-send:before {
+  content: "\e928";
+}
+.li-storage:before {
+  content: "\e929";
+}
+.li-USB:before {
+  content: "\e92a";
+}
+.li-wifi:before {
+  content: "\e92b";
+}
+.li-eject:before {
+  content: "\e908";
+}
+.li-unlocked:before {
+  content: "\e91b";
+}
+.li-accessible:before {
+  content: "\e900";
+}
+.li-alarm:before {
+  content: "\e901";
+}
+.li-bookmark:before {
+  content: "\e902";
+}
+.li-bookmarked:before {
+  content: "\e903";
+}
+.li-bug:before {
+  content: "\e904";
+}
+.li-copyright:before {
+  content: "\e905";
+}
+.li-delete:before {
+  content: "\e906";
+}
+.li-done:before {
+  content: "\e907";
+}
+.li-error:before {
+  content: "\e909";
+}
+.li-explore:before {
+  content: "\e90a";
+}
+.li-favorite:before {
+  content: "\e90b";
+}
+.li-favorited:before {
+  content: "\e90c";
+}
+.li-history:before {
+  content: "\e90d";
+}
+.li-info:before {
+  content: "\e90e";
+}
+.li-invisible:before {
+  content: "\e90f";
+}
+.li-label:before {
+  content: "\e910";
+}
+.li-labeled:before {
+  content: "\e911";
+}
+.li-language:before {
+  content: "\e912";
+}
+.li-lock:before {
+  content: "\e913";
+}
+.li-locked:before {
+  content: "\e914";
+}
+.li-power:before {
+  content: "\e915";
+}
+.li-print:before {
+  content: "\e916";
+}
+.li-search:before {
+  content: "\e917";
+}
+.li-settings:before {
+  content: "\e918";
+}
+.li-thumbs_down:before {
+  content: "\e919";
+}
+.li-thumbs_up:before {
+  content: "\e91a";
+}
+.li-visible:before {
+  content: "\e91c";
+}
+.li-warning:before {
+  content: "\e91d";
+}
+.li-zoom_in:before {
+  content: "\e91e";
+}
+.li-zoom_out:before {
+  content: "\e91f";
 }

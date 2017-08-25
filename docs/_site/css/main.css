@@ -56,7 +56,7 @@ textarea {
 /*==============================================================================
    Custom styles
 ==============================================================================*/
-/*! Lunar Icons v1.0.0 | MIT License | http://localhost:4000/lunar-icons */
+/*! Lunar Icons v1.0.0-alpha.1 | MIT License | http://localhost:4000/lunar-icons */
 * {
   box-sizing: border-box; }
 
@@ -122,6 +122,12 @@ main section#features {
   text-align: center; }
   main section#features a {
     color: #fff; }
+main pre {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 24px 32px;
+  border-radius: 4px; }
+  main pre .c {
+    opacity: .7; }
 main section#cta {
   background-color: #4E54BF;
   padding: 96px 0;

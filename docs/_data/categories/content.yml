@@ -1,0 +1,12 @@
+name: Content
+icons:
+  - add
+  # - block
+  - clear
+  - copy
+  - cut
+  - link
+  - paste
+  - remove
+  # - save
+  - send

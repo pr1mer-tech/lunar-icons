@@ -188,6 +188,16 @@ main {
     }
   }
 
+  pre {
+    background: rgba(#fff, .1);
+    padding: 24px 32px;
+    border-radius: 4px;
+
+    .c {
+      opacity: .7;
+    }
+  }
+
   section#cta {
     background-color: $brand;
     padding: 96px 0;
