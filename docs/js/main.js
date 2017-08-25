@@ -1,1 +1,1 @@
-$('#icons .container').reverseChildren();
+// $('#icons .container').reverseChildren();

@@ -74,7 +74,7 @@ layout: html
 
   <section id="icons">
     <div class="container">
-      {% for categ_hash in site.data.categories | reverse %}
+      {% for categ_hash in site.data.categories%}
         {% assign category = categ_hash[1] %}
         <h3 class="title">
           <button data-category="{{category.name | downcase}}">
