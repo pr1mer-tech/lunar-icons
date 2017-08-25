@@ -1,0 +1,18 @@
+<svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>block</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-240 -208)">
+<g id="block">
+<g id="Ellipse 20 (Stroke)">
+<use xlink:href="#path0_fill" transform="translate(240 208)"/>
+</g>
+<g id="Vector 31">
+<use xlink:href="#path1_stroke" transform="translate(244 212)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 12 22C 17.5228 22 22 17.5228 22 12C 22 6.47715 17.5228 2 12 2C 6.47715 2 2 6.47715 2 12C 2 17.5228 6.47715 22 12 22ZM 12 24C 18.6274 24 24 18.6274 24 12C 24 5.37258 18.6274 0 12 0C 5.37258 0 0 5.37258 0 12C 0 18.6274 5.37258 24 12 24Z"/>
+<path id="path1_stroke" d="M 0.707107 16.7071L 16.7071 0.707107L 15.2929 -0.707107L -0.707107 15.2929L 0.707107 16.7071Z"/>
+</defs>
+</svg>

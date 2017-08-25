@@ -1,0 +1,18 @@
+<svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>save</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-272 -240)">
+<g id="save">
+<g id="Rectangle 2">
+<use xlink:href="#path0_stroke" transform="translate(273 241)"/>
+</g>
+<g id="Ellipse 21 (Stroke)">
+<use xlink:href="#path1_fill" transform="translate(280 251)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 3 7L 2 7L 2 8L 3 8L 3 7ZM 18 7L 18 8L 19 8L 19 7L 18 7ZM 0.292893 17.2929L 1 16.5858L 0.292893 17.2929ZM 4.70711 21.7071L 4 22.4142L 4.70711 21.7071ZM 1 16.5858L 1 1L -1 1L -1 16.5858L 1 16.5858ZM 21 1L 21 21L 23 21L 23 1L 21 1ZM 1 1L 3 1L 3 -1L 1 -1L 1 1ZM 2 0L 2 7L 4 7L 4 0L 2 0ZM 3 8L 18 8L 18 6L 3 6L 3 8ZM 18 1L 21 1L 21 -1L 18 -1L 18 1ZM 19 7L 19 0L 17 0L 17 7L 19 7ZM 3 1L 18 1L 18 -1L 3 -1L 3 1ZM 21 21L 5.41421 21L 5.41421 23L 21 23L 21 21ZM 5.41421 21L 1 16.5858L -0.414214 18L 4 22.4142L 5.41421 21ZM 1 1L 1 -1C -0.10457 -1 -1 -0.10457 -1 1L 1 1ZM 21 21L 21 23C 22.1046 23 23 22.1046 23 21L 21 21ZM -1 16.5858C -1 17.1162 -0.789286 17.6249 -0.414214 18L 1 16.5858L -1 16.5858ZM 23 1C 23 -0.10457 22.1046 -1 21 -1L 21 1L 23 1ZM 5.41421 21L 4 22.4142C 4.37507 22.7893 4.88378 23 5.41421 23L 5.41421 21Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 4 6C 5.10457 6 6 5.10457 6 4C 6 2.89543 5.10457 2 4 2C 2.89543 2 2 2.89543 2 4C 2 5.10457 2.89543 6 4 6ZM 4 8C 6.20914 8 8 6.20914 8 4C 8 1.79086 6.20914 0 4 0C 1.79086 0 0 1.79086 0 4C 0 6.20914 1.79086 8 4 8Z"/>
+</defs>
+</svg>

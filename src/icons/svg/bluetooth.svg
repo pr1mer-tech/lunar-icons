@@ -1,0 +1,14 @@
+<svg width="14" height="24" viewBox="0 0 14 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>bluetooth</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-277 -272)">
+<g id="bluetooth">
+<g id="Vector 17">
+<use xlink:href="#path0_stroke" transform="translate(278 274.5)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 10.6875 14.5L 11.38 15.2214L 12.0898 14.54L 11.42 13.8192L 10.6875 14.5ZM 6 19L 5 19L 5 21.3462L 6.69253 19.7214L 6 19ZM 6 0L 6.69253 -0.721387L 5 -2.34622L 5 0L 6 0ZM 10.6875 4.5L 11.42 5.18076L 12.0898 4.46002L 11.38 3.77861L 10.6875 4.5ZM -0.73251 3.68076L 9.95499 15.1808L 11.42 13.8192L 0.73251 2.31924L -0.73251 3.68076ZM 9.99497 13.7786L 5.30747 18.2786L 6.69253 19.7214L 11.38 15.2214L 9.99497 13.7786ZM 7 19L 7 0L 5 0L 5 19L 7 19ZM 5.30747 0.721387L 9.99497 5.22139L 11.38 3.77861L 6.69253 -0.721387L 5.30747 0.721387ZM 9.95499 3.81924L -0.73251 15.3192L 0.73251 16.6808L 11.42 5.18076L 9.95499 3.81924Z"/>
+</defs>
+</svg>
