@@ -1,99 +1,40 @@
----
-layout: html
----
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Lunar Icons</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#4E54BF">
+        <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+        <link rel="shortcut icon" href="./favicon.ico">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Prompt,Robot+Slab">
+        <link rel="stylesheet" href="https://unpkg.com/normalize-css@2.3.1/normalize.css">
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+    <body>
 
-<header>
-  <img src="{{site.baseurl}}/img/white/logo-{{site.version}}.svg" alt="">
-</header>
+        <header>
+            <nav>
 
-<main>
-  <section id="features">
-    <div class="grid">
-      <div class="row">
-        <div class="col col-4-of-12 col-m-4-of-4">
-          <h1>Free for all</h1>
-          <p>
-            The Lunar Icons are licensed under the <a href="{{site.license}}">
-            CC BY 4.0 License</a>. You are therefore free to use them, even
-            commercially!
-          </p>
-        </div>
-        <div class="col col-4-of-12 col-m-4-of-4">
-          <h1>Infinitly scalable</h1>
-          <p>
-            You can find the icons in SVG format in our <a href="{{site.repo}}">
-            GitHub repo</a>, or by clicking on one of the icons below.
-          </p>
-        </div>
-        <div class="col col-4-of-12 col-m-4-of-4">
-          <h1>Easy to use</h1>
-          <p>
-            You only need 1 line of code to get our icons on your site. You also
-            have the choice between font ligatures and the more classic CSS
-            classes.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
+                <div class="container">
+                    <img src="./img/white/logo-text.svg" alt="Lunar Icons">
+                    <a href="https://github.com/lucasgruwez/lunar-icons">GitHub</a>
+                </div>
+                
+            </nav>
+            <img src="./img/white/logo-v1.0.0.svg" alt="Lunar Icons v1.0.0">
+        </header>
+        <main>
+            <h1>Release date: Friday 4th May 2018</h1>
+        </main>
+        <footer>
+            <p>
+                Made with &#x2764; by <a href="https://gtihub.com/lucasgruwez">@lucasgruwez</a>
+                <small>Copyright &copy; 2018 Lucas Gruwez</small>
+            </p>
+        </footer>
 
-  <section>
-    <h1>Usage</h1>
-    <div class="grid">
-      {% highlight html %}
-<link rel="stylesheet" href="https://unpkg.com/lunar-icons">
-
-<i class="lunar-icons"><!-- Icon name goes here. --></i>
-      {% endhighlight %}
-      </pre>
-    </div>
-  </section>
-
-  <section id="cta">
-
-    <div class="grid">
-      <div class="row">
-        <div class="col w-auto"></div>
-        <div class="col col-5-of-12 col-m-4-of-4">
-          <a href="{{site.download}}" class="btn">
-            Download {{site.version}}
-          </a>
-        </div>
-
-        <div class="col w-auto"></div>
-
-        <div class="col col-5-of-12 col-m-4-of-4">
-          <a href="{{site.stargazers}}" class="btn inverted">
-            Star on GitHub
-          </a>
-        </div>
-        <div class="col w-auto"></div>
-      </div>
-    </div>
-  </section>
-
-  <section id="icons">
-    <div class="container">
-      {% for categ_hash in site.data.categories%}
-        {% assign category = categ_hash[1] %}
-        <h3 class="title">
-          <button data-category="{{category.name | downcase}}">
-            {{category.name}}
-          </button>
-        </h3>
-        <div class="grid full-width content visible" data-category="{{category.name | downcase}}">
-          <div class="row">
-              {% for icon in category.icons %}
-              <button class="icon col col-1-of-4 col-m-2-of-4 col-s-4-of-4">
-                <i class="lunar-icons">{{icon}}</i>
-                {{icon}}
-              </button>
-              {% endfor %}
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-    <h1 style="margin-top: 64px;">More Icons coming soon!</h1>
-    <h3 style="text-align: center;">Full launch planed for december 2017.</h3>
-  </section>
-</main>
+        <script src="https://www.w3counter.com/tracker.js?id=110942"></script>
+    </body>
+</html>
