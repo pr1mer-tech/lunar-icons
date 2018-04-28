@@ -41,4 +41,4 @@ let replace = () => {
 
 window.lunarIcons = { icon, icons, replace }
 
-lunarIcons.replace()
+document.addEventListener('DOMContentLoaded', lunarIcons.replace)

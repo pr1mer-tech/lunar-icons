@@ -270,6 +270,6 @@ let replace = () => {
 
 window.lunarIcons = { icon, icons, replace }
 
-lunarIcons.replace()
+document.addEventListener('DOMContentLoaded', lunarIcons.replace)
 
 },{"../dist/icons.json":1,"./icon.js":2}]},{},[3]);
