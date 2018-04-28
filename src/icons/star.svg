@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Star</title>
+	<path d="M12 4L 14.35 8.76L 19.61 9.53L 15.8 13.24L 16.7 18.47L12 16L 7.3 18.47L 8.2 13.24L 4.39 9.53L 9.65 8.76Z" />
+</svg>

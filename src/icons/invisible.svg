@@ -1,0 +1,23 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Invisible</title>
+    <defs>
+        <mask id="cancel">
+            <rect width="100%" height="100%" fill="white"/>
+            <path stroke="black" d="M 2.75 0L 26.75 24"/>
+        </mask>
+    </defs>
+
+    <g mask="url(#cancel)">
+        <path d="M 2 2L 22 22"/>
+        <path d="M12 10A 2 2 0 1 0 14 12"/>
+        <path d="M 4 12Q 12 2 20 12Q 12 22 4 12Z"/>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Visible</title>
+	<circle cx="12" cy="12" r="2"/>
+	<path d="M 4 12Q 12 2 20 12Q 12 22 4 12Z" />
+</svg>

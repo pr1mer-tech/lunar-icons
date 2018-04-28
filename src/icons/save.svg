@@ -1,0 +1,13 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Save</title>
+    <path d="M4 4L 16 4L 20 8L 20 20L 4 20ZM 8 4L 8 10L 16 10L 16 4" />
+    <circle cx="12" cy="15" r="2"/>
+</svg>

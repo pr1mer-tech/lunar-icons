@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Move horizontally</title>
+	<path d="M 6 8L 2 12L 6 16M 18 8L 22 12L 18 16M 2 12L 22 12"/>
+</svg>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>{{page.title}}</title>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="description" content="{{page.desc}}">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="theme-color" content="#4E54BF">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <link rel="shortcut icon" href="favicon.ico">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Prompt,Robot+Slab">
+        <link rel="stylesheet" href="https://unpkg.com/waffle-grid">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        {% include nav.html %}
+
+        {{content}}
+
+        {% include footer.html %}
+
+        <script src="{{site.cdn}}"></script>
+        <script src="js/main.js"></script>
+
+        <script>
+            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+            ga('create','UA-92684751-2','auto');ga('send','pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+        <script src="https://w3counter.com/tracker.js?id=110942"></script>
+    </body>
+</html>

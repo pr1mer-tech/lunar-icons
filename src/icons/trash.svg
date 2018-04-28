@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Trash</title>
+    <path d="M 7 7L 8 20L 16 20L 17 7M 4 7L 20 7M 9 6L 9 4L 15 4L 15 6" />
+</svg>

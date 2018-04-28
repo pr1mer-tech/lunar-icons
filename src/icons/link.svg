@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Link</title>
+	<path d="M 10 14L 14 10M 11 9L 14 6A 1 1, 0, 0, 1, 18 10L 15 13M 9 11L 6 14A 1 1, 0, 0, 0, 10 18L 13 15" />
+</svg>

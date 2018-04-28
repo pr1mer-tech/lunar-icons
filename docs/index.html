@@ -1,40 +1,76 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Lunar Icons</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#4E54BF">
-        <link rel="apple-touch-icon" href="./apple-touch-icon.png">
-        <link rel="shortcut icon" href="./favicon.ico">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Prompt,Robot+Slab">
-        <link rel="stylesheet" href="https://unpkg.com/normalize-css@2.3.1/normalize.css">
-        <link rel="stylesheet" href="./css/main.css">
-    </head>
-    <body>
+---
+layout: html
+title: Lunar Icons
+desc: A set of beatiful handcrafted icons.
+---
 
-        <header>
-            <nav>
+<header>
+    <img src="{{site.baseurl}}/img/white/logo-v1.0.0.svg" alt="">
 
-                <div class="container">
-                    <img src="./img/white/logo-text.svg" alt="Lunar Icons">
-                    <a href="https://github.com/lucasgruwez/lunar-icons">GitHub</a>
-                </div>
-                
-            </nav>
-            <img src="./img/white/logo-v1.0.0.svg" alt="Lunar Icons v1.0.0">
-        </header>
-        <main>
-            <h1>Release date: Friday 4th May 2018</h1>
-        </main>
-        <footer>
+    <i class="scroll" data-icon="cheveron_down"></i>
+</header>
+
+<main>
+
+
+    <section id="features" class="container row">
+        <div class="col col-1-of-4 col-m-3-of-4 push-m-1-of-8">
+            <i data-icon="justice"></i>
+            <h2>Open source</h2>
             <p>
-                Made with &#x2764; by <a href="https://gtihub.com/lucasgruwez">@lucasgruwez</a>
-                <small>Copyright &copy; 2018 Lucas Gruwez</small>
+                The Lunar icons set is released under the <a href="{{site.repo}}/blob/master/LICENSE">MIT License</a>. It is completely free, even for commercial use!
             </p>
-        </footer>
+        </div>
+        <div class="col col-1-of-4 col-m-3-of-4 push-m-1-of-8">
+            <i data-icon="zoom_in"></i>
+            <h2>Scalable</h2>
+            <p>
+                These icons are available in an SVG format. You can scale them to be as big as you need, without quality loss.
+            </p>
+        </div>
+        <div class="col col-1-of-4 col-m-3-of-4 push-m-1-of-8">
+            <i data-icon="code"></i>
+            <h2>Easy to use</h2>
+            <p>
+                All you need to get started is one single line of code! Please see the <a href="{{site.repo}}#getting-started">README</a> to get started.
+            </p>
+        </div>
+        <div class="col col-1-of-4 col-m-3-of-4 push-m-1-of-8">
+            <i data-icon="weights"></i>
+            <h2>Light weight</h2>
+            <p>
+                We offer {{site.icons}} icons and our JS library is only {{site.gzip}} minified and gzipped.
+            </p>
+        </div>
+    </section>
 
-        <script src="https://www.w3counter.com/tracker.js?id=110942"></script>
-    </body>
-</html>
+    <section id="cta">
+        <div class="container row">
+            <a
+                href="{{site.repo}}/releases/download/{{site.version}}/lunar-icons.min.css"
+                class="btn col col-2-of-4 col-s-4-of-4">
+                Download {{site.version}}
+            </a>
+            <a href="{{site.repo}}"
+                class="btn secondary col col-2-of-4 col-s-4-of-4">
+                GitHub
+            </a>
+        </div>
+    </section>
+
+    <section id="icons" class="container grid">
+        <label for="search" class="col col-m-4-of-4">
+            <i data-icon="search"></i>
+            <input id="search" type="search" placeholder="Search...">
+        </label>
+        <div class="icon-wrapper">
+
+        </div>
+    </section>
+
+    <div id="popup">
+
+    </div>
+
+
+</main>

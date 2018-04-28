@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Car</title>
+    <path d="M 5 11L 8 5L 16 5L 19 11L 19 17L 5 17ZM 6 17L 6 19L 5 19L 5 17M 18 17L 18 19L 19 19L 19 17M 5 11L 19 11M 7 14L 9 14M 17 14L 15 14" />
+</svg>

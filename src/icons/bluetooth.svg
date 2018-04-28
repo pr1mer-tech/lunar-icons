@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Bluetooth</title>
+	<path d="M 7 7L 17 17L 12 22L 12 2L 17 7L 7 17 " />
+</svg>

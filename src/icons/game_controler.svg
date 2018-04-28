@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Game controler</title>
+    <path d="M 2 7L 22 7L 22 17 L 2 17ZM 5 12L 11 12M 8 9L 8 15M 14 13L 16 13M 17 11L 19 11"/>
+</svg>

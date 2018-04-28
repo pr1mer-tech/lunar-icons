@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Hospital</title>
+    <path d="M 9 4L 15 4L 15 9L 20 9L 20 15L 15 15L 15 20L 9 20L 9 15L 4 15L 4 9L 9 9Z" />
+</svg>

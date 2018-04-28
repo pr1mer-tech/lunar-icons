@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Heart</title>
+    <path d="M 19.18 12.18L 12 19.36L 4.82 12.18A 4.5 4.5, 0, 1, 1 12 6.5A 4.5 4.5, 0, 1, 1, 19.18 12.18Z"/>
+</svg>

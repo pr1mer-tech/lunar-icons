@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Home</title>
+    <path d="M 6 10L 6 20L 18 20L 18 10M 3 13L 12 4L 21 13M 10 20L 10 12L 14 12L 14 20" />
+</svg>

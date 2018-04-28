@@ -1,0 +1,13 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Settings</title>
+	<path d="M14.59 2.34L 15.5 5.94L 19.07 4.93L 21.66 9.41L 19 12L 21.66 14.59L 19.07 19.07L 15.5 18.06L 14.59 21.66L 9.41 21.66L 8.5 18.06L 4.93 19.07L 2.34 14.59L 5 12L 2.34 9.41L 4.93 4.93L 8.5 5.94L 9.41 2.34Z"/>
+	<circle cx="12" cy="12" r="3" />
+</svg>

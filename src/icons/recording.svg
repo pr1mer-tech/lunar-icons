@@ -1,0 +1,14 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Recording</title>
+    <path d="M 2 5L 22 5L 22 19L 2 19ZM 8 14L 16 14"/>
+    <circle cx="8" cy="12" r="2" />
+    <circle cx="16" cy="12" r="2" />
+</svg>

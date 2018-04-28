@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Mail open</title>
+	<path d="M 20 9L 20 21L 4 21L 4 9M 4 9L 12 15L 20 9L 12 3Z" />
+</svg>

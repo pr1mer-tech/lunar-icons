@@ -1,0 +1,306 @@
+$brand: linear-gradient(90deg, #4e54bf, #a18cd1);
+$black: #0A0B1A;
+$white: #FFFFFF;
+
+body {
+    font-size: 16px;
+    font-family: 'Prompt', sans-serif;
+    background: $black;
+    color: $white;
+    overflow-x: hidden;
+}
+
+[hidden] {display: none !important;}
+
+/*
+ * Navigation
+ */
+
+nav {
+    background: $brand;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 32px 0;
+    z-index: 999;
+
+    .container {
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo img {
+        height: 48px;
+    }
+
+    ul li {
+        list-style-type: none;
+        display: inline-block;
+        margin-left: 64px;
+
+        a {color: inherit; text-decoration: none; text-transform: uppercase;}
+    }
+}
+
+@media (max-width: 840px) {
+    nav .logo img {
+        height: 32px;
+    }
+    nav ul li {
+        display: none;
+        margin: 0;
+
+        &:last-child {display: inline-block;}
+    }
+}
+
+/*
+ * Header
+ */
+
+header {
+    height: 100vh;
+    min-height: 700px;
+    background: $brand;
+    position: relative;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 256px;
+
+    img {
+        max-width: 400px;
+        width: 50vw;
+    }
+
+    .scroll {
+        font-size: 64px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        animation: 2s ease 0s scroll infinite;
+        cursor: pointer;
+    }
+
+    &::after {
+        content: ' ';
+        background: url("/lunar-icons/img/wave-bg-1.svg");
+        position: absolute;
+        height: 256px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-size: 100% 256px;
+        background-position: center;
+    }
+}
+
+@media (max-width: 840px) {
+    header {
+        min-height: 100vw;
+        padding-bottom: 128px;
+
+        .scroll {animation-name: scroll-m;}
+
+        &::after {background-size: 100% 128px; height: 128px;}
+    }
+}
+
+@keyframes scroll {
+    0%, 100% {
+        bottom: 320px;
+    }
+    50% {
+        bottom: 288px;
+    }
+}
+
+@keyframes scroll-m {
+    0%, 100% {
+        bottom: 192px;
+    }
+    50% {
+        bottom: 160px;
+    }
+}
+
+/*
+ * Main (features cta and icons)
+ */
+
+main {
+    padding-top: 128px;
+
+    section {padding: 96px 0;}
+
+    #features {
+        text-align: center;
+        .lunar-icons {font-size: 96px;}
+        a {color: inherit;}
+    }
+
+    #cta {
+        background: $brand;
+        position: relative;
+        padding: 256px 0;
+
+        &::before,
+        &::after {
+            content: ' ';
+            position: absolute;
+            height: 192px;
+            left: 0;
+            right: 0;
+            background-image: url("/lunar-icons/img/wave-bg-1.svg");
+            background-size: 100% 192px;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        &::before {top: 0;  transform: rotate(180deg);}
+        &::after {bottom: 0;}
+
+        a {
+            display: block;
+            padding: 16px 0;
+            text-align: center;
+            border: 2px solid $white;
+            border-radius: 4px;
+            color: $black;
+            background: $white;
+            text-decoration: none;
+            font-size: 18px;
+
+            &.secondary {
+                background: rgba($white, 0.2);
+                opacity: .8;
+                color: $white;
+            }
+        }
+    }
+
+    #icons {
+        width: 100%;
+        padding-top: 256px;
+        padding-bottom: 0;
+
+        label {position: relative;}
+
+        input {
+            padding: 16px 32px;
+            padding-left: 56px;
+            border: 2px solid $white;
+            border-radius: 4px;
+            background: rgba($white, .2);
+            color: $white;
+            opacity: .8;
+            box-sizing: border-box;
+            width: 100%;
+        }
+
+        label .lunar-icons {
+            position: absolute;
+            font-size: 24px;
+            top: calc(50% - 12px);
+            left: 16px;
+        }
+
+        .icon-wrapper {margin: 96px auto 0;}
+
+        .icon {
+            display: inline-block;
+            padding: 24px;
+            height: 32px;
+            width: 32px;
+            border-radius: 4px;
+            margin: 16px;
+            font-size: 32px;
+            background: rgba($white, .1);
+            transform: scale(1);
+            transition: transform 100ms ease;
+            cursor: pointer;
+
+            &:hover {transform: scale(1.1);}
+
+            .lunar-icons {display: block;}
+        }
+    }
+}
+
+@media (max-width: 840px) {
+    main #cta {
+        padding: 128px 0;
+
+        &::before,
+        &::after {height: 96px; background-size: 100% 96px;}
+    }
+    main #icons .icon {
+        font-size: 24px;
+        width: 24px;
+        height: 24px;
+        padding: 16px;
+        margin: 8px;
+    }
+}
+
+/*
+ * Icon code popup
+ */
+
+#popup {
+    box-sizing: border-box;
+    width: 960px;
+    max-width: 80%;
+    position: fixed;
+    bottom: -200px;
+    transition: all 200ms ease;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 24px 64px;
+    border-radius: 4px 4px 0 0;
+    background: $brand;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0;
+
+    &.visible {bottom: 0px; opacity: 1;}
+
+    .lunar-icons {font-size: 24px;}
+    code {background: rgba($white, .1); border-radius: 4px; padding: 16px 32px;}
+}
+
+@media (max-width: 840px) {
+    #popup code {font-size: 14px;}
+}
+
+@media (max-width: 480px) {
+    #popup {padding: 24px; max-width: 100%;}
+    #popup .lunar-icons {display: none;}
+    #popup code {width: 100%; text-align: center;}
+}
+
+/*
+ * Footer
+ */
+
+footer {
+    height: 300px;
+    text-align: center;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    a {color: inherit;}
+    small {opacity: .4;}
+}

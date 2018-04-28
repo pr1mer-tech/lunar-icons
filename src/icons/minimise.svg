@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Minimise</title>
+	<path d="M 8 4L 8 8L 4 8M 16 4L 16 8L 20 8M 4 16L 8 16L 8 20M 16 20L 16 16L 20 16" />
+</svg>

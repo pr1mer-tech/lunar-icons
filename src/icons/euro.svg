@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Euro</title>
+	<path d="M 17 4C 11 3 8 7 8 12C 8 17 11 21 17 20M 6 10.5L 14 10.5M 6 13.5L 14 13.5" />
+</svg>

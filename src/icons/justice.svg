@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Justice</title>
+    <path d="M 8 20L 16 20ZM 12 20L 12 3M 5 7L 7 7C 10 5 14 5 17 7L 19 7M 3 15L 5 7L 7 15ZM 17 15L 19 7L 21 15Z"/>
+</svg>

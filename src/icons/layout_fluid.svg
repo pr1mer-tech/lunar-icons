@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Layout fluid</title>
+    <path d="M 2 2L 10 2L 10 13L 2 13ZM 14 2L 22 2L 22 8L 14 8ZM 2 17L 10 17L 10 22L 2 22ZM 14 12L 22 12L 22 22L 14 22Z" />
+</svg>

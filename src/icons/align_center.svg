@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Align center</title>
+    <path d="M 4 6L 20 6M 6 10L 18 10M 4 14L 20 14M 5.5 18L 18.5 18" />
+</svg>

@@ -1,0 +1,13 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Bell</title>
+	<path d="M 4 19Q 6 19 6 14Q 6 5 12 5Q 18 5 18 14Q 18 19 20 19ZM10 19A 2 2, 0, 0, 0, 14 19" />
+	<path d="M 5 5Q 3.5 7 2.75 12M 19 5Q 20.5 7 21.25 12" />
+</svg>

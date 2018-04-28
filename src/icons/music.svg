@@ -1,0 +1,14 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Music</title>
+    <path d="M 8 18L 8 6L 19 4L 19 16M 8 9L 19 7" />
+    <circle cx="6" cy="18" r="2" />
+    <circle cx="17" cy="16" r="2" />
+</svg>

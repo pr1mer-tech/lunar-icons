@@ -1,0 +1,14 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Language</title>
+	<circle cx="12" cy="12" r="10"/>
+	<ellipse cx="12" cy="12" rx="4" ry="10"/>
+	<path d="M 3 8L 21 8M 3 16L 21 16" />
+</svg>

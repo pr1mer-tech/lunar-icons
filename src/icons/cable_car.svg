@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Cable car</title>
+    <path d="M 6 11Q 6 9 8 9L 16 9Q 18 9 18 11L 18 18Q 18 20 16 20L 8 20Q 6 20 6 18ZM 6 16L 18 16M 12 4L 12 16M 5 5L 19 3" />
+</svg>

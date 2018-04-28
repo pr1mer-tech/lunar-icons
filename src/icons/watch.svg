@@ -1,0 +1,13 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Watch</title>
+    <circle cx="12" cy="12" r="6" />
+	<path d="M 7.5 8L 9 2L 15 2L 16.5 8M 7.5 16L 9 22L 15 22L 16.5 16M 12 8.5L 12 12L 14 14"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Lightbulb</title>
+	<path d="M 9 20L 15 20M 10 17L 14 17L 14 14A 5.17 5.17, 0, 1, 0, 10 14Z" />
+</svg>

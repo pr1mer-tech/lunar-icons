@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Folder open</title>
+    <path d="M 19 10L 19 7L 12 7L 11 5L 3 5L 3 19L 16 19M 3 19L 6 11L 22 11L 19 19L 16 19" />
+</svg>

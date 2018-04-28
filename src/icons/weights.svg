@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Weights</title>
+    <path d="M 6 12L 18 12M 6 7L 6 17M 3 9L 3 15M 18 7L 18 17M 21 9L 21 15" />
+</svg>

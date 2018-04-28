@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Lab</title>
+    <path d="M 9 4L 15 4L 14 6L 14 12L 19 20L 5 20L 10 12L 10 6Z" />
+</svg>

@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Clipboard</title>
+    <path d="M 16 4L 19 4L 19 21L 5 21L 5 4L 8 4M 9 3L 9 6L 15 6L 15 3Z" />
+</svg>

@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Cloud upload</title>
+	<path d="M18 17A 4 4, 0, 1, 0, 18 9A 5.5 5.5, 0, 0, 0, 7 8A 4.5 4.5, 0, 1, 0, 5.9 17L 6 17M 12 12L 12 22M 8 16 L 12 12 L 16 16" />
+</svg>

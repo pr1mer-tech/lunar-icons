@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>List</title>
+    <path d="M 4 8L 6 8M 8 8L 20 8M 4 12L 6 12M 8 12L 20 12M 4 16L 6 16M 8 16L 20 16" />
+</svg>

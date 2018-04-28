@@ -1,0 +1,14 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Film camera</title>
+    <path d="M 4 11L 16 11L 16 19L 4 19ZM 16 14L 20 11L 20 19L 16 16" />
+	<circle cx="7" cy="7" r="3" />
+	<circle cx="13" cy="7" r="3" />
+</svg>

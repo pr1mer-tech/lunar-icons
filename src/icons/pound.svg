@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Pound</title>
+	<path d="M 16 8A 4 4, 0, 0, 0, 8 8L 8 14Q 8 20 6 20L 18 20M 6 12L 12 12" />
+</svg>

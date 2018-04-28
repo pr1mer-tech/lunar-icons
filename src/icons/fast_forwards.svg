@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Fast forwards</title>
+	<path d="M 3 6L 3 18L 12 12ZM 12 6L 12 18L 21 12Z" />
+</svg>

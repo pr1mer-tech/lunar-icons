@@ -1,0 +1,22 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Money off</title>
+    <defs>
+        <mask id="cancel">
+            <rect width="100%" height="100%" fill="white"/>
+            <path stroke="black" d="M 2.75 0L 26.75 24"/>
+        </mask>
+    </defs>
+
+    <g mask="url(#cancel)">
+        <path d="M 2 2L 22 22"/>
+		<path d="M 15.5 9C 15.5 5 8.5 5 8.5 9C 8.5 13 15.5 11 15.5 15C 15.5 19 8.5 19 8.5 15M 12 3L 12 6M 12 21L 12 18" />
+    </g>
+</svg>

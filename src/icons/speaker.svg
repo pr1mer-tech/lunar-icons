@@ -1,0 +1,13 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Speaker</title>
+    <path d="M 6 4L 18 4L 18 20L 6 20ZM 11 7.5L 13 7.5" />
+    <circle cx="12" cy="14" r="3" />
+</svg>

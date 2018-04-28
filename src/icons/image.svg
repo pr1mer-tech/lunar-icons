@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Image</title>
+    <path d="M 4 4L 4 20L 20 20L 20 4ZM 4 16L 8 12L 16 20M 11 15L 16 10L 20 14M 8 8L 10 8" />
+</svg>

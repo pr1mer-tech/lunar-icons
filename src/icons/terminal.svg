@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Terminal</title>
+	<path d="M 3 5L 21 5L 21 19L 3 19ZM 6 8L 10 12L 6 16M 12 15L 18 15" />
+</svg>

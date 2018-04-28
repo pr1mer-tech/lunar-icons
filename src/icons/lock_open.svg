@@ -1,0 +1,13 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Lock open</title>
+    <path d="M4 12L 20 12L 20 22L 4 22ZM 12 15.5L 12 18.5" />
+	<path d="M 6 8A 6 6, 0, 0, 1, 18 8L 18 11" />
+</svg>

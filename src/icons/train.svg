@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Train</title>
+    <path d="M 5 6Q 5 4 7 4L 17 4Q 19 4 19 6L 19 18L 5 18ZM 5 12L 19 12M 7 15L 9 15M 17 15L 15 15M 12 12L 12 4M 8 18L 4 23M 16 18L 20 23M 6 21 18 21" />
+</svg>

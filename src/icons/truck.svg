@@ -1,0 +1,14 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Truck</title>
+    <path d="M3 6L 15 6L 15 16L 9 16M 5 16L 3 16L 3 6L 5 6M 19 16L 21 16L 21 12L 17 8L 15 8"/>
+	<circle cx="7" cy="16" r="2"/>
+	<circle cx="17" cy="16" r="2"/>
+</svg>

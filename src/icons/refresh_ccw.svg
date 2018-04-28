@@ -1,0 +1,13 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Refresh counter-clockwise</title>
+	<path d="M 3.16 15A 9 9, 0, 0, 0 18.36 18.36L 21 16M 15 16L 21 16L 21 22" />
+	<path d="M 20.48 9A 9 9, 0, 0, 0 5.64 5.64L 3 8M 9 8L 3 8L 3 2" />
+</svg>

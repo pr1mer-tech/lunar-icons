@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+  - "node"
+
+before_install:
+  - npm install -g npm@4.3.0
+
+install:
+  - npm install
+
+before_script:
+  - npm install -g gulp
+
+script:
+  - gulp
+
+notifications:
+email: false

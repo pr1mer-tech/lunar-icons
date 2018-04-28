@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Power</title>
+    <path d="M 8 5.07A 8 8, 0, 1, 0, 16 5.07M 12 2L 12 12" />
+</svg>

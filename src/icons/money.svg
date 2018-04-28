@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Money</title>
+	<path d="M 15.5 9C 15.5 5 8.5 5 8.5 9C 8.5 13 15.5 11 15.5 15C 15.5 19 8.5 19 8.5 15M 12 3L 12 6M 12 21L 12 18" />
+</svg>

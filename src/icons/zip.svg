@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Zip</title>
+	<path d="M 4 2L 14 2L 20 8L 20 22L 4 22ZM 8 3L 8 5M 10 5L 10 7M 8 7L 8 9M 10 9L 10 11M 8 11L 8 13M 10 13L 10 15M 8 15L 8 17" />
+</svg>

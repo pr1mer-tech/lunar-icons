@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Copy</title>
+    <path d="M 8 4L 18 4L 18 17L 8 17ZM 5 5L5 20L 17 20" />
+</svg>

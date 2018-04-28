@@ -1,0 +1,23 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Alarm off</title>
+    <defs>
+		<mask id="cancel-alarm">
+			<rect width="100%" height="100%" fill="white"/>
+			<path d="M 0.75 0L 24.75 24" stroke="black"/>
+		</mask>
+	</defs>
+
+	<g mask="url(#cancel-alarm)">
+		<path d="M 2 4L 20 22" />
+		<circle cx="12" cy="14" r="8"/>
+		<path d="M4.22 6.22A 11 11, 0, 0, 0, 2.85 7.89M 16.21 3.84A 11 11, 0, 0, 1, 21.15 7.89" />
+	</g>
+</svg>

@@ -1,0 +1,13 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Warning circle</title>
+	<circle cx="12" cy="12" r="10"/>
+	<path d="M 12 7L 12 14M 12 15L 12 17" />
+</svg>
