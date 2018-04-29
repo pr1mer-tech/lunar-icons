@@ -1,7 +1,7 @@
 # Lunar Icons
 
 <p align="center">
-    <img src="docs/img/black/logo-header.png" width="300"/>
+    <img src="docs/img/black/logo-header.svg" width="300"/>
 </p>
 
 <p align="center">
