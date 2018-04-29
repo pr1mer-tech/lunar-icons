@@ -37,7 +37,8 @@ module.exports = class Icon {
 
     /**
      * Generate an icon's SVG
-     * @return {string} SVG string
+	 * @param  {object}      attr Attributes to add to SVG
+     * @return {HTMLElement}      HTMLElement of SVG
      */
 
     toSVG(attr) {
@@ -66,6 +67,6 @@ module.exports = class Icon {
      */
 
     toString() {
-        return this.path
+        return this.toSVG().toString()
     }
 }
