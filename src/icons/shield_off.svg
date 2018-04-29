@@ -7,7 +7,7 @@
     stroke="currentColor"
     stroke-width="2"
     stroke-linejoin="round" >
-    <title>Sheild</title>
+    <title>Shield Off</title>
     <defs>
         <mask id="cancel">
             <rect width="100%" height="100%" fill="white"/>
