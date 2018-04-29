@@ -7,6 +7,6 @@
     stroke="currentColor"
     stroke-width="2"
     stroke-linejoin="round" >
-    <title>Sheild</title>
+    <title>Shield</title>
 	<path d="M 5 7 Q 5 17 12 21Q 19 17 19 7Q 16 7 12 4Q 8 7 5 7Z" />
 </svg>
