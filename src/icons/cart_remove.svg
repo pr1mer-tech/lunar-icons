@@ -1,0 +1,14 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Cart remove</title>
+    <path d="M 2 4L 5 4L 7 16L 20 16L 21 7L 8 7M 11 11.5L 16 11.5" />
+	<circle cx="9" cy="19" r="2" />
+	<circle cx="18" cy="19" r="2" />
+</svg>

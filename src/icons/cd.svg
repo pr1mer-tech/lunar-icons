@@ -1,0 +1,14 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>CD</title>
+    <circle cx="12" cy="12" r="10" />
+	<circle cx="12" cy="12" r="2" />
+	<path d="M 9.7 6.46A 6 6, 0, 0, 0, 6 12M 14.3 17.54A 6 6, 0, 0, 0, 18 12" />
+</svg>
