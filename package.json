@@ -1,6 +1,6 @@
 {
   "name": "lunar-icons",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "A set of beatiful handcrafted icons.",
   "main": "dist/lunar-icons.min.js",
   "directories": {
