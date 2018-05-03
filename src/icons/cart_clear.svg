@@ -8,7 +8,7 @@
     stroke-width="2"
     stroke-linejoin="round" >
     <title>Cart clear</title>
-    <path d="M 2 4L 5 4L 7 16L 20 16L 21 7L 8 7M 11.5 9.5L 15.5 13.5M 11.5 13.5L 15.5 9.5" />
+    <path d="M 2 4L 5 4L 7 16L 20 16L 21 7L 6 7M 11.5 9.5L 15.5 13.5M 11.5 13.5L 15.5 9.5" />
 	<circle cx="9" cy="19" r="2" />
 	<circle cx="18" cy="19" r="2" />
 </svg>
