@@ -1,0 +1,14 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>VR</title>
+    <circle cx="8" cy="12" r="2"/>
+	<circle cx="16" cy="12" r="2"/>
+	<path d="M 3 6L 3 18L 10 18L 12 16L 14 18L 21 18L 21 6Z"/>
+</svg>
