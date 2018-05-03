@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Twitter</title>
+    <path d="M 1 19C 8 24 21 20 21 7C 21 7 23 6 23 5L 20.3 5.5L 22.5 3.5C 22.5 3.5 20 5 19.5 4.5C 17 1 10 3 12 9C 8 9 3 6 2.5 4C 1 4 2 10 4 10L 2 9C 2 12 4 14 6 14L 3.5 14C 3 16 7 17 8 17C 8 18 4 19 1 19Z" />
+</svg>

@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>YouTube</title>
+    <path d="M 21.5 7A 3 3 0 0 0 20 5.5C 18.5 5 12 5 12 5S 6 5 4 5.5A 3 3 0 0 0 2.5 7A 31 31 0 0 0 2 12A 31 31 0 0 0 2.5 17A 3 3 0 0 0 4 18.5C 5.5 19 12 19 12 19S 18.5 19 20 18.5A 3 3 0 0 0 21.5 17A 31 31 0 0 0 22 12A 31 31 0 0 0 21.5 7ZM 10 15V 9L 15 12Z" />
+</svg>

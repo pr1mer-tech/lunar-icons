@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Facebook</title>
+    <path d="M16 22L 22 22L 22 2L 2 2L 2 22L 13 22L 13 22L 13 14L 10 14L 10 11L 13 11C 12.5 5 15 5 19 5L 19 8C 16 8 16 8 16 11L 19 11L 18.5 14L 16 14Z"/>
+</svg>

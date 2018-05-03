@@ -1,0 +1,14 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Instagram</title>
+    <circle cx="12" cy="12" r="5" />
+	<circle cx="18" cy="6" r=".4" />
+	<path d="M 8 2L 16 2C 20 2 22 4 22 8L 22 16C 22 20 20 22 16 22L 8 22C 4 22 2 20 2 16L 2 8C 2 4 4 2 8 2Z"/>
+</svg>

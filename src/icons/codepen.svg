@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Codepen</title>
+    <path d="M 12 2L 22 9L 22 15L 12 22L 2 15L 2 9ZM 2 9L 12 15L 22 9M 2 15L 12 9L 22 15M 12 2L 12 9.5M 12 15L 12 22" />
+</svg>

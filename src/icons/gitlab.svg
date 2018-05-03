@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>GitLab</title>
+    <path d="M 12 21L 2 14L 5.7 3L 8.5 10L 15.5 10L 18.3 3L 22 14Z" />
+</svg>
