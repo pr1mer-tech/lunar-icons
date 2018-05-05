@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Windows</title>
+    <path d="M 4 7L 20 4L 20 20L 4 17ZM 4 12L 20 12M 11.5 5L 11.5 19" />
+</svg>

@@ -1,0 +1,13 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Cash</title>
+    <path d="M 2 6.5L 22 6.5 L 22 17.5L 2 17.5ZM 2 10Q 5 10 5 7M 2 14Q 5 14 5 17M 22 10Q 19 10 19 7M 22 14Q 19 14 19 17M 6 12L 8 12M 16 12L 18 12" />
+	<ellipse cx="12" cy="12" rx="1.5" ry="2"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Phone down</title>
+    <path d="M 8 10L8 13 L4.5 15.5L 2.5 13C 8 8 16 8 21.5 13L 19.5 15.5L 16 13L 16 10" />
+</svg>

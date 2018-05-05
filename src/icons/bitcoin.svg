@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Bitcoin</title>
+    <path d="M 8 6L 13 6C 17 6 17 12 13 12L 8 12ZM 8 12L 14 12C 18 12 18 18 14 18L 8 18ZM 10 6L 10 3M 13 6L 13 3M 10 18L 10 21M 13 18L 13 21"/>
+</svg>

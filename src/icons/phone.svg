@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Phone</title>
+    <path d="M 6 11L9 8L 8 4L 4 4C 4 13 11 20 20 20L 20 16L 16 15L 13 18" />
+</svg>
