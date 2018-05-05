@@ -32,7 +32,11 @@ module.exports = class Icon {
 
         this.name = name
         this.attr = defaults
-        this.path = icons[name]
+		if (typeof icons[name] == 'string') {
+			this.path = icons[name]
+		} else {
+			this.path = `<defs><mask id="mask-${name}"><rect width="100%" height="100%" fill="white"/>${icons[name].mask}</mask></defs><g mask="url(#mask-${name})">${icons[name].path}</g>`
+		}
     }
 
     /**

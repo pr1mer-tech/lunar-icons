@@ -37,14 +37,28 @@ module.exports = opts => {
         let name  = baseName(file.path)
         let dom   = parser.parseFromString(file.contents.toString())
         let paths = dom.getElementsByTagName('svg')[0].childNodes
-        let path  = ''
+        let path  = {
+			path: '',
+			mask: ''
+		}
 
         for (let i of paths) {
-            if (i.nodeName != 'title' && i.nodeName != '#text') path += i.outerHTML
+
+            if (i.nodeName == 'defs') {
+				for (let j of i.childNodes[0].childNodes) {
+					if (j.nodeName != 'rect') path.mask += j.outerHTML
+				}
+			} else if (i.nodeName == 'g') {
+				path.path += i.innerHTML
+			} else if (i.nodeName != 'title' && i.nodeName != '#text') {
+				path.path += i.outerHTML
+			}
+
         }
 
         editJSON((d) => {
-            d[name] = path
+			if (path.mask == '') d[name] = path.path
+			else d[name] = path
             return d
         })
 

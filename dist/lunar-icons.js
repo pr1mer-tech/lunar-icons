@@ -2,11 +2,15 @@
 module.exports={
     "alarm": "<circle cx=\"12\" cy=\"14\" r=\"8\"/><path d=\"M7.79 3.84a11 11 0 0 0-4.94 4.05m13.36-4.05a11 11 0 0 1 4.94 4.05M12 9v5l3 3\"/>",
     "alarm_add": "<circle cx=\"12\" cy=\"14\" r=\"8\"/><path d=\"M7.79 3.84a11 11 0 0 0-4.94 4.05m13.36-4.05a11 11 0 0 1 4.94 4.05M12 10v8m-4-4h8\"/>",
-    "alarm_off": "<defs><mask id=\"cancel-alarm\"><rect width=\"100%\" height=\"100%\" fill=\"#fff\"/><path d=\"M.75 0l24 24\" stroke=\"#000\"/></mask></defs><g mask=\"url(#cancel-alarm)\"><path d=\"M2 4l18 18\"/><circle cx=\"12\" cy=\"14\" r=\"8\"/><path d=\"M4.22 6.22a11 11 0 0 0-1.37 1.67m13.36-4.05a11 11 0 0 1 4.94 4.05\"/></g>",
+    "alarm_off": {
+        "path": "<path d=\"M2 4l18 18\"/><circle cx=\"12\" cy=\"14\" r=\"8\"/><path d=\"M4.22 6.22a11 11 0 0 0-1.37 1.67m13.36-4.05a11 11 0 0 1 4.94 4.05\"/>",
+        "mask": "<path d=\"M.75 0l24 24\" stroke=\"#000\"/>"
+    },
     "align_center": "<path d=\"M4 6h16M6 10h12M4 14h16M5.5 18h13\"/>",
     "align_justify": "<path d=\"M4 6h16M4 10h16M4 14h16M4 18h16\"/>",
     "align_left": "<path d=\"M4 6h16M4 10h12M4 14h16M4 18h13\"/>",
     "align_right": "<path d=\"M4 6h16M8 10h12M4 14h16M7 18h13\"/>",
+    "apple": "<path d=\"M10 22c2-1 3-1 5 0 3 1 5-5 5-5-3-3-3-5-.5-8C17 6 13 7 12 8c-1-1-8-3-8 5 0 5 4 10 6 9zm2-15c0-3 2-5 4-5 0 3-2 5-4 5\"/>",
     "arrow_down": "<path d=\"M6 12l6 6 6-6m-6-6v12\"/>",
     "arrow_left": "<path d=\"M12 6l-6 6 6 6m-6-6h12\"/>",
     "arrow_right": "<path d=\"M12 6l6 6-6 6m-6-6h12\"/>",
@@ -14,10 +18,17 @@ module.exports={
     "battery": "<path d=\"M10 4h4M8 20h8V7H8z\"/>",
     "battery_low": "<path d=\"M10 4h4M8 20h8V7H8zM12 9v6m0 1v2\"/>",
     "bell": "<path d=\"M4 19q2 0 2-5 0-9 6-9t6 9q0 5 2 5zm6 0a2 2 0 0 0 4 0\"/>",
-    "bell_off": "<defs><mask id=\"cancel\"><rect width=\"100%\" height=\"100%\" fill=\"#fff\"/><path stroke=\"#000\" d=\"M2.75 0l24 24\"/></mask></defs><g mask=\"url(#cancel)\"><path d=\"M2 2l20 20M4 19q2 0 2-5 0-9 6-9t6 9q0 5 2 5zm6 0a2 2 0 0 0 4 0\"/></g>",
+    "bell_off": {
+        "path": "<path d=\"M2 2l20 20M4 19q2 0 2-5 0-9 6-9t6 9q0 5 2 5zm6 0a2 2 0 0 0 4 0\"/>",
+        "mask": "<path stroke=\"#000\" d=\"M2.75 0l24 24\"/>"
+    },
     "bell_ringing": "<path d=\"M4 19q2 0 2-5 0-9 6-9t6 9q0 5 2 5zm6 0a2 2 0 0 0 4 0M5 5q-1.5 2-2.25 7M19 5q1.5 2 2.25 7\"/>",
+    "bitcoin": "<path d=\"M8 6h5c4 0 4 6 0 6H8zm0 6h6c4 0 4 6 0 6H8zm2-6V3m3 3V3m-3 15v3m3-3v3\"/>",
     "bluetooth": "<path d=\"M7 7l10 10-5 5V2l5 5L7 17\"/>",
-    "bluetooth_off": "<defs><mask id=\"cancel\"><rect width=\"100%\" height=\"100%\" fill=\"#fff\"/><path stroke=\"#000\" d=\"M2.75 0l24 24\"/></mask></defs><g mask=\"url(#cancel)\"><path d=\"M2 2l20 20M7 7l10 10-5 5V2l5 5L7 17\"/></g>",
+    "bluetooth_off": {
+        "path": "<path d=\"M2 2l20 20M7 7l10 10-5 5V2l5 5L7 17\"/>",
+        "mask": "<path stroke=\"#000\" d=\"M2.75 0l24 24\"/>"
+    },
     "book": "<path d=\"M3 6c3-1 7-1 9 0 2-1 6-1 9 0v13c-3-1-7-1-9 0-2-1-6-1-9 0zm9 12V6\"/>",
     "bookmark": "<path d=\"M6 2h12v20l-6-4-6 4z\"/>",
     "bus": "<path d=\"M5 4h14v14H5zm2 14v3H6v-3m11 0v3h1v-3M5 12h14M7 15h2m8 0h-2\"/>",
@@ -29,6 +40,7 @@ module.exports={
     "cart_add": "<path d=\"M2 4h3l2 12h13l1-9H6m5 4.5h5M13.5 9v5\"/><circle cx=\"9\" cy=\"19\" r=\"2\"/><circle cx=\"18\" cy=\"19\" r=\"2\"/>",
     "cart_clear": "<path d=\"M2 4h3l2 12h13l1-9H6m5.5 2.5l4 4m-4 0l4-4\"/><circle cx=\"9\" cy=\"19\" r=\"2\"/><circle cx=\"18\" cy=\"19\" r=\"2\"/>",
     "cart_remove": "<path d=\"M2 4h3l2 12h13l1-9H6m5 4.5h5\"/><circle cx=\"9\" cy=\"19\" r=\"2\"/><circle cx=\"18\" cy=\"19\" r=\"2\"/>",
+    "cash": "<path d=\"M2 6.5h20v11H2zM2 10q3 0 3-3m-3 7q3 0 3 3m17-7q-3 0-3-3m3 7q-3 0-3 3M6 12h2m8 0h2\"/><ellipse cx=\"12\" cy=\"12\" rx=\"1.5\" ry=\"2\"/>",
     "cd": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><circle cx=\"12\" cy=\"12\" r=\"2\"/><path d=\"M9.7 6.46A6 6 0 0 0 6 12m8.3 5.54A6 6 0 0 0 18 12\"/>",
     "chat": "<path d=\"M4 4h16v11H8l-4 5z\"/>",
     "check": "<path d=\"M4 12l5 5L20 6\"/>",
@@ -40,7 +52,10 @@ module.exports={
     "clock": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 6v6l4 4\"/>",
     "cloud": "<path d=\"M18 19a4 4 0 1 0 0-8 5.5 5.5 0 0 0-11-1 4.5 4.5 0 1 0 0 9z\"/>",
     "cloud_download": "<path d=\"M18 17a4 4 0 1 0 0-8A5.5 5.5 0 0 0 7 8a4.5 4.5 0 1 0-1.1 9H6m6-5v10m-4-4l4 4 4-4\"/>",
-    "cloud_off": "<defs><mask id=\"cancel\"><rect width=\"100%\" height=\"100%\" fill=\"#fff\"/><path stroke=\"#000\" d=\"M2.75 0l24 24\"/></mask></defs><g mask=\"url(#cancel)\"><path d=\"M2 2l20 20M18 19a4 4 0 1 0 0-8 5.5 5.5 0 0 0-11-1 4.5 4.5 0 1 0 0 9z\"/></g>",
+    "cloud_off": {
+        "path": "<path d=\"M2 2l20 20M18 19a4 4 0 1 0 0-8 5.5 5.5 0 0 0-11-1 4.5 4.5 0 1 0 0 9z\"/>",
+        "mask": "<path stroke=\"#000\" d=\"M2.75 0l24 24\"/>"
+    },
     "cloud_upload": "<path d=\"M18 17a4 4 0 1 0 0-8A5.5 5.5 0 0 0 7 8a4.5 4.5 0 1 0-1.1 9H6m6-5v10m-4-6l4-4 4 4\"/>",
     "code": "<path d=\"M7 7l-5 5 5 5M17 7l5 5-5 5m-8 2l6-14\"/>",
     "codepen": "<path d=\"M12 2l10 7v6l-10 7-10-7V9zM2 9l10 6 10-6M2 15l10-6 10 6M12 2v7.5m0 5.5v7\"/>",
@@ -49,7 +64,10 @@ module.exports={
     "credit_card": "<path d=\"M4 6h16v12H4zm0 4h16\"/>",
     "crop": "<path d=\"M6 2v16h16M2 6h4m12 16v-4M8 6h10v10\"/>",
     "data": "<path d=\"M4 20h16V4z\"/>",
-    "data_off": "<defs><mask id=\"cancel\"><rect width=\"100%\" height=\"100%\" fill=\"#fff\"/><path stroke=\"#000\" d=\"M2.75 0l24 24\"/></mask></defs><g mask=\"url(#cancel)\"><path d=\"M2 2l20 20M4 20h16V4z\"/></g>",
+    "data_off": {
+        "path": "<path d=\"M2 2l20 20M4 20h16V4z\"/>",
+        "mask": "<path stroke=\"#000\" d=\"M2.75 0l24 24\"/>"
+    },
     "disc": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>",
     "discussion": "<path d=\"M4 7Q3 7 3 8v13l4-5h7q1 0 1-1m6-12v14l-4-4H6V3z\"/>",
     "divide": "<path d=\"M6 12h12m-7-5h2m-2 10h2\"/>",
@@ -84,7 +102,10 @@ module.exports={
     "incognito": "<path d=\"M4 12h16M7 12l1.5-7L12 6l3.5-1 1.5 7m-7 5c1-1 3-1 4 0\"/><circle cx=\"8\" cy=\"17\" r=\"2\"/><circle cx=\"16\" cy=\"17\" r=\"2\"/>",
     "info": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 16v-5m0-3v2\"/>",
     "instagram": "<circle cx=\"12\" cy=\"12\" r=\"5\"/><circle cx=\"18\" cy=\"6\" r=\".4\"/><path d=\"M8 2h8c4 0 6 2 6 6v8c0 4-2 6-6 6H8c-4 0-6-2-6-6V8c0-4 2-6 6-6z\"/>",
-    "invisible": "<defs><mask id=\"cancel\"><rect width=\"100%\" height=\"100%\" fill=\"#fff\"/><path stroke=\"#000\" d=\"M2.75 0l24 24\"/></mask></defs><g mask=\"url(#cancel)\"><path d=\"M2 2l20 20M12 10a2 2 0 1 0 2 2\"/><path d=\"M4 12q8-10 16 0-8 10-16 0z\"/></g>",
+    "invisible": {
+        "path": "<path d=\"M2 2l20 20M12 10a2 2 0 1 0 2 2\"/><path d=\"M4 12q8-10 16 0-8 10-16 0z\"/>",
+        "mask": "<path stroke=\"#000\" d=\"M2.75 0l24 24\"/>"
+    },
     "justice": "<path d=\"M8 20h8zm4 0V3M5 7h2c3-2 7-2 10 0h2M3 15l2-8 2 8zm14 0l2-8 2 8z\"/>",
     "key": "<circle cx=\"6\" cy=\"12\" r=\"3.5\"/><path d=\"M10 12h12m0 2h-4\"/>",
     "lab": "<path d=\"M9 4h6l-1 2v6l5 8H5l5-8V6z\"/>",
@@ -95,16 +116,25 @@ module.exports={
     "library": "<path d=\"M4 4v16M8 7v13m4-14v14m4-14l4 14\"/>",
     "lightbulb": "<path d=\"M9 20h6m-5-3h4v-3a5.17 5.17 0 1 0-4 0z\"/>",
     "lightning": "<path d=\"M7 4v10h4v6l5-10h-5l2-6z\"/>",
-    "lightning_off": "<defs><mask id=\"cancel\"><rect width=\"100%\" height=\"100%\" fill=\"#fff\"/><path stroke=\"#000\" d=\"M2.75 0l24 24\"/></mask></defs><g mask=\"url(#cancel)\"><path d=\"M2 2l20 20M7 4v10h4v6l5-10h-5l2-6z\"/></g>",
+    "lightning_off": {
+        "path": "<path d=\"M2 2l20 20M7 4v10h4v6l5-10h-5l2-6z\"/>",
+        "mask": "<path stroke=\"#000\" d=\"M2.75 0l24 24\"/>"
+    },
     "link": "<path d=\"M10 14l4-4m-3-1l3-3a1 1 0 0 1 4 4l-3 3m-6-2l-3 3a1 1 0 0 0 4 4l3-3\"/>",
     "link_external": "<path d=\"M12 12l8-8m-6 0h6v6m-8-6H4v16h16v-8\"/>",
     "list": "<path d=\"M4 8h2m2 0h12M4 12h2m2 0h12M4 16h2m2 0h12\"/>",
     "location": "<path d=\"M12 20l5-6a6.5 6.5 0 1 0-10 0z\"/><circle cx=\"12\" cy=\"10\" r=\"1.5\"/>",
     "location_add": "<path d=\"M12 20l5-6a6.5 6.5 0 1 0-10 0zM9 10h6m-3-3v6\"/>",
-    "location_off": "<defs><mask id=\"cancel\"><rect width=\"100%\" height=\"100%\" fill=\"#fff\"/><path stroke=\"#000\" d=\"M2.75 0l24 24\"/></mask></defs><g mask=\"url(#cancel)\"><path d=\"M2 2l20 20M12 20l5-6a6.5 6.5 0 1 0-10 0z\"/></g>",
+    "location_off": {
+        "path": "<path d=\"M2 2l20 20M12 20l5-6a6.5 6.5 0 1 0-10 0z\"/>",
+        "mask": "<path stroke=\"#000\" d=\"M2.75 0l24 24\"/>"
+    },
     "location_remove": "<path d=\"M12 20l5-6a6.5 6.5 0 1 0-10 0zM9 10h6\"/>",
     "lock": "<path d=\"M4 12h16v10H4zm8 3.5v3M6 11V8a6 6 0 0 1 12 0v3\"/>",
-    "lock_off": "<defs><mask id=\"cancel\"><rect width=\"100%\" height=\"100%\" fill=\"#fff\"/><path stroke=\"#000\" d=\"M2.75 0l24 24\"/></mask></defs><g mask=\"url(#cancel)\"><path d=\"M2 2l20 20M4 12h16v10H4zm8 3.5v3M6 11V8a6 6 0 0 1 12 0v3\"/></g>",
+    "lock_off": {
+        "path": "<path d=\"M2 2l20 20M4 12h16v10H4zm8 3.5v3M6 11V8a6 6 0 0 1 12 0v3\"/>",
+        "mask": "<path stroke=\"#000\" d=\"M2.75 0l24 24\"/>"
+    },
     "lock_open": "<path d=\"M4 12h16v10H4zm8 3.5v3M6 8a6 6 0 0 1 12 0v3\"/>",
     "mail": "<path d=\"M4 6h16v12H4zm0 0l8 6 8-6\"/>",
     "mail_open": "<path d=\"M20 9v12H4V9m0 0l8 6 8-6-8-6z\"/>",
@@ -113,7 +143,10 @@ module.exports={
     "minus": "<path d=\"M4 12h16\"/>",
     "minus_circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M7 12h10\"/>",
     "money": "<path d=\"M15.5 9c0-4-7-4-7 0s7 2 7 6-7 4-7 0M12 3v3m0 15v-3\"/>",
-    "money_off": "<defs><mask id=\"cancel\"><rect width=\"100%\" height=\"100%\" fill=\"#fff\"/><path stroke=\"#000\" d=\"M2.75 0l24 24\"/></mask></defs><g mask=\"url(#cancel)\"><path d=\"M2 2l20 20M15.5 9c0-4-7-4-7 0s7 2 7 6-7 4-7 0M12 3v3m0 15v-3\"/></g>",
+    "money_off": {
+        "path": "<path d=\"M2 2l20 20M15.5 9c0-4-7-4-7 0s7 2 7 6-7 4-7 0M12 3v3m0 15v-3\"/>",
+        "mask": "<path stroke=\"#000\" d=\"M2.75 0l24 24\"/>"
+    },
     "monitor": "<path d=\"M4 5h16v10H4zm3 14h10m-5 0v-3\"/>",
     "move": "<path d=\"M6 8l-4 4 4 4m12-8l4 4-4 4M2 12h20M8 6l4-4 4 4M8 18l4 4 4-4M12 2v20\"/>",
     "move_h": "<path d=\"M6 8l-4 4 4 4m12-8l4 4-4 4M2 12h20\"/>",
@@ -123,6 +156,12 @@ module.exports={
     "olympics": "<circle cx=\"6\" cy=\"10\" r=\"3\"/><circle cx=\"12\" cy=\"10\" r=\"3\"/><circle cx=\"18\" cy=\"10\" r=\"3\"/><circle cx=\"9\" cy=\"14\" r=\"3\"/><circle cx=\"15\" cy=\"14\" r=\"3\"/>",
     "pause": "<path d=\"M8 6v12m8-12v12\"/>",
     "person": "<circle cx=\"12\" cy=\"8.5\" r=\"4\"/><path d=\"M5 20a8 8 0 0 1 14 0\"/>",
+    "phone": "<path d=\"M6 11l3-3-1-4H4c0 9 7 16 16 16v-4l-4-1-3 3\"/>",
+    "phone_down": "<path d=\"M8 10v3l-3.5 2.5-2-2.5C8 8 16 8 21.5 13l-2 2.5L16 13v-3\"/>",
+    "phone_off": {
+        "path": "<path d=\"M22 2L2 22M6 11l3-3-1-4H4c0 9 7 16 16 16v-4l-4-1-3 3\"/>",
+        "mask": "<path stroke=\"#000\" d=\"M21.25 0l-24 24\"/>"
+    },
     "pie_chart": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 2v10h10m-10 0l6 8\"/>",
     "play": "<path d=\"M7.5 6v12l9-6z\"/>",
     "plus": "<path d=\"M4 12h16m-8-8v16\"/>",
@@ -141,7 +180,11 @@ module.exports={
     "settings": "<path d=\"M14.59 2.34l.91 3.6 3.57-1.01 2.59 4.48L19 12l2.66 2.59-2.59 4.48-3.57-1.01-.91 3.6H9.41l-.91-3.6-3.57 1.01-2.59-4.48L5 12 2.34 9.41l2.59-4.48L8.5 5.94l.91-3.6z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>",
     "share": "<path d=\"M16 7l-8 4m0 2l8 4\"/><circle cx=\"6\" cy=\"12\" r=\"2\"/><circle cx=\"18\" cy=\"6\" r=\"2\"/><circle cx=\"18\" cy=\"18\" r=\"2\"/>",
     "shield": "<path d=\"M5 7q0 10 7 14 7-4 7-14-3 0-7-3-4 3-7 3z\"/>",
-    "shield_off": "<defs><mask id=\"cancel\"><rect width=\"100%\" height=\"100%\" fill=\"#fff\"/><path stroke=\"#000\" d=\"M2.75 0l24 24\"/></mask></defs><g mask=\"url(#cancel)\"><path d=\"M2 2l20 20M5 7q0 10 7 14 7-4 7-14-3 0-7-3-4 3-7 3z\"/></g>",
+    "shield_off": {
+        "path": "<path d=\"M2 2l20 20M5 7q0 10 7 14 7-4 7-14-3 0-7-3-4 3-7 3z\"/>",
+        "mask": "<path stroke=\"#000\" d=\"M2.75 0l24 24\"/>"
+    },
+    "sigma": "<path d=\"M17 8V6H7l4 6-4 6h10v-2\"/>",
     "skip": "<path d=\"M6.5 5v14m11-13v12l-9-6z\"/>",
     "skip_back": "<path d=\"M17.5 5v14M6.5 6v12l9-6z\"/>",
     "smartphone": "<path d=\"M7 4h10v16H7zm3 13h4\"/>",
@@ -167,7 +210,11 @@ module.exports={
     "watch": "<circle cx=\"12\" cy=\"12\" r=\"6\"/><path d=\"M7.5 8L9 2h6l1.5 6m-9 8L9 22h6l1.5-6M12 8.5V12l2 2\"/>",
     "weights": "<path d=\"M6 12h12M6 7v10M3 9v6m15-8v10m3-8v6\"/>",
     "wifi": "<path d=\"M12 19L22 9A14.14 14.14 0 0 0 2 9z\"/>",
-    "wifi_off": "<defs><mask id=\"cancel\"><rect width=\"100%\" height=\"100%\" fill=\"#fff\"/><path stroke=\"#000\" d=\"M2.75 0l24 24\"/></mask></defs><g mask=\"url(#cancel)\"><path d=\"M2 2l20 20M12 19L22 9A14.14 14.14 0 0 0 2 9z\"/></g>",
+    "wifi_off": {
+        "path": "<path d=\"M2 2l20 20M12 19L22 9A14.14 14.14 0 0 0 2 9z\"/>",
+        "mask": "<path stroke=\"#000\" d=\"M2.75 0l24 24\"/>"
+    },
+    "windows": "<path d=\"M4 7l16-3v16L4 17zm0 5h16m-8.5-7v14\"/>",
     "youtube": "<path d=\"M21.5 7A3 3 0 0 0 20 5.5C18.5 5 12 5 12 5s-6 0-8 .5A3 3 0 0 0 2.5 7a31 31 0 0 0-.5 5 31 31 0 0 0 .5 5A3 3 0 0 0 4 18.5c1.5.5 8 .5 8 .5s6.5 0 8-.5a3 3 0 0 0 1.5-1.5 31 31 0 0 0 .5-5 31 31 0 0 0-.5-5zM10 15V9l5 3z\"/>",
     "zip": "<path d=\"M4 2h10l6 6v14H4zm4 1v2m2 0v2M8 7v2m2 0v2m-2 0v2m2 0v2m-2 0v2\"/>",
     "zoom_in": "<circle cx=\"15\" cy=\"9\" r=\"6\"/><path d=\"M3 21l8-8m1-4h6m-3-3v6\"/>",
@@ -208,7 +255,11 @@ module.exports = class Icon {
 
         this.name = name
         this.attr = defaults
-        this.path = icons[name]
+		if (typeof icons[name] == 'string') {
+			this.path = icons[name]
+		} else {
+			this.path = `<defs><mask id="mask-${name}"><rect width="100%" height="100%" fill="white"/>${icons[name].mask}</mask></defs><g mask="url(#mask-${name})">${icons[name].path}</g>`
+		}
     }
 
     /**
