@@ -30,11 +30,10 @@ document.addEventListener('DOMContentLoaded', () => {
             let popup = document.getElementById('popup');
 
             popup.innerHTML = `
-            <i data-icon="${icon}"></i>
-            <code>&lt;i data-icon="${icon}"&gt;&lt;/i&gt;</code>
+            <lunar-icon icon="${icon}"></lunar-icon>
+            <code>&lt;lunar-icon icon="${icon}"&gt;&lt;/lunar-icon&gt;</code>
             `
-
-            lunarIcons.replace()
+			
             popup.classList.add('visible')
         })
 
