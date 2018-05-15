@@ -1,4 +1,5 @@
-{
+(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+module.exports={
     "alarm": "<circle cx=\"12\" cy=\"14\" r=\"8\"/><path d=\"M7.79 3.84a11 11 0 0 0-4.94 4.05m13.36-4.05a11 11 0 0 1 4.94 4.05M12 9v5l3 3\"/>",
     "alarm_add": "<circle cx=\"12\" cy=\"14\" r=\"8\"/><path d=\"M7.79 3.84a11 11 0 0 0-4.94 4.05m13.36-4.05a11 11 0 0 1 4.94 4.05M12 10v8m-4-4h8\"/>",
     "alarm_off": {
@@ -223,3 +224,132 @@
     "zoom_in": "<circle cx=\"15\" cy=\"9\" r=\"6\"/><path d=\"M3 21l8-8m1-4h6m-3-3v6\"/>",
     "zoom_out": "<circle cx=\"15\" cy=\"9\" r=\"6\"/><path d=\"M3 21l8-8m1-4h6\"/>"
 }
+},{}],2:[function(require,module,exports){
+const icons = require('../dist/icons.json');
+const defaults = {
+    xmlns: "http://www.w3.org/2000/svg",
+    height: "24",
+    width: "24",
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: "currentColor",
+    "stroke-width": "2",
+    "stroke-linejoin": "round"
+}
+
+/* =============================================================================
+ * Define icon class, which will generate icons from JSON
+ * ========================================================================== */
+
+
+module.exports = class Icon {
+
+    /**
+     * Get necessary info about icon
+     * @param  {string} name Icon name
+     * @return {object}      contains name, path and attributes
+     */
+
+    constructor(name) {
+
+        if (icons[name] == undefined) {
+            console.error(`No icon with name: ${name}`);
+            return null
+        }
+
+        this.name = name
+        this.attr = defaults
+		if (typeof icons[name] == 'string') {
+			this.path = icons[name]
+		} else {
+			this.path = `<defs><mask id="mask-${name}"><rect width="100%" height="100%" fill="white"/>${icons[name].mask}</mask></defs><g mask="url(#mask-${name})">${icons[name].path}</g>`
+		}
+    }
+
+    /**
+     * Generate an icon's SVG
+	 * @param  {object}      attr Attributes to add to SVG
+     * @return {HTMLElement}      HTMLElement of SVG
+     */
+
+    toSVG(attr) {
+        if (typeof document === 'undefined') {
+            throw new Error('Icon.toSVG() only works in the browser.')
+        }
+
+        attr = Object.assign({}, this.attr, attr)
+        if (attr.class) attr.class += ' lunar-icons'
+        else attr.class = 'lunar-icons'
+
+        let attributes = ''
+        for (let a in attr) attributes += `${a}="${attr[a]}" `
+
+        let str = `<svg ${attributes}>${this.path}</svg>`
+
+        let svg = new DOMParser().parseFromString(str,'image/svg+xml')
+        let element = svg.querySelector('svg')
+
+        return element
+    }
+
+    /**
+     * Output path
+     * @return {string} path
+     */
+
+    toString() {
+        return this.toSVG().toString()
+    }
+}
+
+},{"../dist/icons.json":1}],3:[function(require,module,exports){
+const icon = require('../src/icon.js');
+const icons = Object.keys( require('../dist/icons.json') );
+
+let script = document.createElement('script')
+script.src = 'https://unpkg.com/@webcomponents/custom-elements@1.1.0/custom-elements.min.js'
+
+document.head.append(script)
+
+if (!document.body.classList.contains('lunar')) {
+	document.head.innerHTML += `<style>
+		.lunar-icons {width: 1em; min-width: 1em; height: 1em; min-height: 1em}
+		</style>`
+	document.body.classList.add('lunar')
+}
+
+script.onload = () => {
+    class Lunar extends HTMLElement {
+        static get observedAttributes() {
+            return ['icon'];
+        }
+
+        get icon() {
+            return this.getAttribute('icon')
+        }
+
+        set icon(val) {
+            this.setAttribute('icon', val)
+            this.setSVG()
+        }
+
+        constructor() {
+            super();
+        }
+
+        attributeChangedCallback(i,o,n) {
+            this.setSVG(n);
+        }
+
+        setSVG(a) {
+            let iconName =  a ? a : this.icon;
+            this.innerHTML = '';
+            this.append(new icon(iconName).toSVG())
+        }
+    }
+    customElements.define('lunar-icon', Lunar);
+}
+
+window.lunarIcons = { icon, icons }
+
+},{"../dist/icons.json":1,"../src/icon.js":2}]},{},[3]);

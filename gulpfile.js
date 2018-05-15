@@ -16,12 +16,13 @@ gulp.task('docs', () => {
 
 gulp.task('browserify', () => {
     shell.exec('browserify ./src/index.js -o dist/lunar-icons.js')
+	shell.exec('browserify ./src/web-components.js -o dist/lunar-icons.wc.js')
 })
 
 gulp.task('minify', () => {
-    return gulp.src('./dist/lunar-icons.js')
+    return gulp.src(['./dist/lunar-icons.js', './dist/lunar-icons.wc.js'])
         .pipe(uglify())
-        .pipe(rename('lunar-icons.min.js'))
+        .pipe(rename({suffix: '.min'}))
         .pipe(gulp.dest('./dist'))
 })
 
