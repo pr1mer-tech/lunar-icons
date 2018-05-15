@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Print</title>
+    <path d="M17 17L 20 17L 20 11Q 20 9 18 9L 6 9Q 4 9 4 11L 4 17L 7 17M8 14L 8 20L 16 20L 16 14M 7 13.5L 17 13.5M8 8L 8 4L 16 4L 16 8" />
+</svg>

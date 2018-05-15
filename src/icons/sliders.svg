@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>Sliders</title>
+    <path d="M 4 6L 13 6M 17 6L 20 6M 14 3.5L 14 8.5M 4 12L 8 12M 12 12L 20 12M 9 9.5L 9 14.5M 4 18L 13 18M 17 18L 20 18M 14 15.5L 14 20.5" />
+</svg>
