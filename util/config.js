@@ -8,7 +8,7 @@ const icons = require('../dist/icons.json');
  */
 
 let inp = fs.readFileSync('./dist/lunar-icons.min.js')
-let gzipSize = Math.round(zlib.gzipSync(inp).toString().length / 1024)
+let gzipSize = Math.floor(zlib.gzipSync(inp).toString().length / 1024)
 
 /*
  * Get lunar-icons version

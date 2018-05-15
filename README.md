@@ -40,28 +40,22 @@ To make the process of using these icons a bit easier, we wrote some JS that wil
 You can either download `lunar-icons.js` or `lunar-icons.min.js` from the `./dist/` folder in this repository, or you can include them via a CDN.
 
 ```html
-<script src="../path/to/lunar-icons.min.js"></script>
+<script src="../path/to/lunar-icons.wc.min.js"></script>
 <!-- Or if you decide to use a CDN -->
-<script src="https://unpkg.com/lunar-icons/dist/lunar-icons.min.js"></script>
+<script src="https://unpkg.com/lunar-icons/dist/lunar-icons.wc.min.js"></script>
 ```
 
 #### Use icon
 
-To use an icon, use the following code, and add the name of the icon you'd like to use in the data-icon attribute.
+Lunar Icons is built using custom web components since v2.0.0. To add an icon to your site, use the following code, replacing `icon="sheild"` with whatever icon you would like to use.
 
 ```html
-<i data-icon="sheild"></i>
+<lunar-icons icon="sheild"></lunar-icons>
 ```
 
-#### Replace icons
+## Like this project?
 
-All `<i>` tags will be replaced by SVG on load, but any additional icons you add after the page has loaded will not be replaced. To replace them, use the following JavaScript snippet:
-
-```js
-lunarIcons.replace()
-```
-
-Any class or id that you add to an icon before replacing it will be kept on the replaced SVG. We will also add the `.lunar-icons` class to all SVGs.
+Please feel free to give the lunar-icons repo a star, and if you want to help support my work, please consider [donating](https://paypal.me/lucasgruwez).
 
 ## Versioning
 
