@@ -1,6 +1,8 @@
 const icon = require('./icon.js')
 const icons = Object.keys( require('../dist/icons.json') )
 
+require('./web-components.js')()
+
 /* =============================================================================
  * Function used to replace icons by svg
  * ========================================================================== */

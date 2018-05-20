@@ -1,36 +1,37 @@
 {
 	"name": "lunar-icons",
-	"version": "2.0.1",
+	"version": "2.1.0",
 	"description": "A set of beatiful handcrafted icons.",
-	"main": "dist/lunar-icons.wc.min.js",
+	"main": "dist/lunar-icons.min.js",
 	"directories": {
-	    "doc": "docs"
+		"doc": "docs"
 	},
 	"scripts": {
-	    "test": "gulp"
+		"test": "gulp"
 	},
 	"repository": {
-	    "type": "git",
-	    "url": "https://github.com/lucasgruwez/lunar-icons.git"
+		"type": "git",
+		"url": "https://github.com/lucasgruwez/lunar-icons.git"
 	},
 	"keywords": [
 		"web-components",
 		"lunar-icons",
-	    "icons",
-	    "svg"
+		"icons",
+		"svg"
 	],
 	"author": "Lucas Gruwez <gruwez.lucas@gmail.com>",
 	"license": "MIT",
 	"bugs": {
-	    "url": "https://github.com/lucasgruwez/lunar-icons/issues"
+		"url": "https://github.com/lucasgruwez/lunar-icons/issues"
 	},
 	"devDependencies": {
-	    "dom-parser": "^0.1.5",
-	    "gulp": "^3.9.1",
-	    "gulp-rename": "^1.2.2",
-	    "gulp-svgmin": "^1.2.4",
-	    "gulp-uglify-es": "^1.0.1",
-	    "run-sequence": "^2.2.1",
-	    "shelljs": "^0.8.1"
+		"browserify": "^16.2.2",
+		"dom-parser": "^0.1.5",
+		"gulp": "^3.9.1",
+		"gulp-rename": "^1.2.2",
+		"gulp-svgmin": "^1.2.4",
+		"gulp-uglify-es": "^1.0.1",
+		"run-sequence": "^2.2.1",
+		"vinyl-source-stream": "^2.0.0"
 	}
 }

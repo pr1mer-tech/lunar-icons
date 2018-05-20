@@ -3,47 +3,51 @@ const zlib = require('zlib');
 const pkg = require('../package.json');
 const icons = require('../dist/icons.json');
 
-/*
- * calculate size of lunar-icons minified and gziped
- */
+module.exports = () => {
 
-let inp = fs.readFileSync('./dist/lunar-icons.min.js')
-let gzipSize = Math.floor(zlib.gzipSync(inp).toString().length / 1024)
+	/*
+	* calculate size of lunar-icons minified and gziped
+	*/
 
-/*
- * Get lunar-icons version
- */
+	let inp = fs.readFileSync('./dist/lunar-icons.min.js')
+	let gzipSize = Math.floor(zlib.gzipSync(inp).toString().length / 1024)
 
-let v = `v${pkg.version}`
+	/*
+	* Get lunar-icons version
+	*/
 
-/*
- * get number of icons rounded to 50
- */
+	let v = `v${pkg.version}`
 
-let n = Math.floor(Object.keys(icons).length / 50) * 50
+	/*
+	* get number of icons rounded to 50
+	*/
 
-console.log(v, `${n}+ icons in ${gzipSize}kb`)
+	let n = Math.floor(Object.keys(icons).length / 50) * 50
 
-/*
- * get config file
- */
+	console.log(v, `${n}+ icons in ${gzipSize}kb`)
 
-let cfg = fs.readFileSync('./docs/_config.yml')
+	/*
+	* get config file
+	*/
 
-let newCfg = ''
+	let cfg = fs.readFileSync('./docs/_config.yml')
 
-for (let i of cfg.toString().split('\n') ) {
+	let newCfg = ''
 
-    if (i.indexOf('version:') > -1) {
-        newCfg += `version:     ${v}\n`
-    } else if (i.indexOf('gzip:') > -1) {
-        newCfg += `gzip:        ${gzipSize}kb\n`
-    } else if (i.indexOf('icons:') > -1) {
-        newCfg += `icons:       ${n}+\n`
-    } else {
-        newCfg += i + '\n'
-    }
+	for (let i of cfg.toString().split('\n') ) {
+
+		if (i.indexOf('version:') > -1) {
+			newCfg += `version:     ${v}\n`
+		} else if (i.indexOf('gzip:') > -1) {
+			newCfg += `gzip:        ${gzipSize}kb\n`
+		} else if (i.indexOf('icons:') > -1) {
+			newCfg += `icons:       ${n}+\n`
+		} else {
+			newCfg += i + '\n'
+		}
+
+	}
+
+	fs.writeFileSync('./docs/_config.yml', newCfg)
 
 }
-
-fs.writeFileSync('./docs/_config.yml', newCfg)
