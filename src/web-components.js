@@ -3,7 +3,7 @@ const icons = Object.keys( require('../dist/icons.json') );
 
 const createCustomEl = () => {
 
-	let script = document.createElement('script')
+	const script = document.createElement('script');
 	script.src = 'https://unpkg.com/@webcomponents/custom-elements@1.1.0/custom-elements.min.js'
 
 	document.head.append(script)
@@ -52,3 +52,4 @@ const createCustomEl = () => {
 }
 
 module.exports = createCustomEl;
+
