@@ -1,4 +1,4 @@
-const icon = require('./icon.js')
+import icon from './icon.js';
 const icons = Object.keys( require('../dist/icons.json') )
 
 require('./web-components.js')()
@@ -11,7 +11,7 @@ require('./web-components.js')()
  * Replace all <i> tags by svgs
  */
 
-let replace = () => {
+const replace = () => {
 
     if (typeof document === 'undefined') {
         throw new Error('Replacing icons only works in the browser.')
@@ -24,12 +24,12 @@ let replace = () => {
         document.body.classList.add('lunar')
     }
 
-    let iconElements = document.querySelectorAll('i[data-icon]')
+    const iconElements = document.querySelectorAll('i[data-icon]');
 
     Array.from(iconElements).forEach(i => {
-        let name = i.getAttribute('data-icon')
+        const name = i.getAttribute('data-icon');
 
-        if (icons.indexOf(name) > -1) {
+        if (icons.includes(name)) {
             attr = {}
             if (i.id != '') attr.id = i.id
             if (i.classList.contains('lunar-icons')) i.classList.remove('lunar-icons')
@@ -39,7 +39,7 @@ let replace = () => {
         }
 
     })
-}
+};
 
 window.lunarIcons = { icon, icons, replace }
 
