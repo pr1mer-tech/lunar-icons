@@ -1,0 +1,22 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
+    <title>mic_off</title>
+    <defs>
+        <mask id="cancel">
+            <rect width="100%" height="100%" fill="white"/>
+            <path stroke="black" d="M 2.75 0L 26.75 24"/>
+        </mask>
+    </defs>
+
+    <g mask="url(#cancel)">
+        <path d="M 2 2L 22 22"/>
+        <path d="M12 21L 12 17M 7 12Q 7 17 12 17Q 17 17 17 12M12 14Q 14 14 14 12L 14 6Q 14 4 12 4Q 10 4 10 6L 10 12Q 10 14 12 14"/>
+    </g>
+</svg>

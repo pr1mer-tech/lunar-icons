@@ -1,5 +1,5 @@
 /*!
- * lunar-icons - 2.1.0 - (https://lucasgruwez.github.io/lunar-icons)
+ * lunar-icons - 2.1.1 - (https://lucasgruwez.github.io/lunar-icons)
  * Copyright 2018 Lucas Gruwez.
  * Licensed under MIT
  * https://github.com/lucasgruwez/lunar-icons
@@ -148,6 +148,11 @@ module.exports={
     "mail": "<path d=\"M4 6h16v12H4zm0 0l8 6 8-6\"/>",
     "mail_open": "<path d=\"M20 9v12H4V9m0 0l8 6 8-6-8-6z\"/>",
     "menu": "<path d=\"M4 6h16M4 12h16M4 18h16\"/>",
+    "mic": "<path d=\"M12 21v-4m-5-5q0 5 5 5t5-5m-5 2q2 0 2-2V6q0-2-2-2t-2 2v6q0 2 2 2\"/>",
+    "mic_off": {
+        "path": "<path d=\"M2 2l20 20M12 21v-4m-5-5q0 5 5 5t5-5m-5 2q2 0 2-2V6q0-2-2-2t-2 2v6q0 2 2 2\"/>",
+        "mask": "<path stroke=\"#000\" d=\"M2.75 0l24 24\"/>"
+    },
     "minimise": "<path d=\"M8 4v4H4m12-4v4h4M4 16h4v4m8 0v-4h4\"/>",
     "minus": "<path d=\"M4 12h16\"/>",
     "minus_circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M7 12h10\"/>",
@@ -214,6 +219,7 @@ module.exports={
     "truck": "<path d=\"M3 6h12v10H9m-4 0H3V6h2m14 10h2v-4l-4-4h-2\"/><circle cx=\"7\" cy=\"16\" r=\"2\"/><circle cx=\"17\" cy=\"16\" r=\"2\"/>",
     "twitter": "<path d=\"M1 19c7 5 20 1 20-12 0 0 2-1 2-2l-2.7.5 2.2-2s-2.5 1.5-3 1C17 1 10 3 12 9 8 9 3 6 2.5 4 1 4 2 10 4 10L2 9c0 3 2 5 4 5H3.5C3 16 7 17 8 17c0 1-4 2-7 2z\"/>",
     "upload": "<path d=\"M3 20h18M6 10l6-6 6 6m-6-6v13\"/>",
+    "verified": "<path d=\"M5 7q0 10 7 14 7-4 7-14-3 0-7-3-4 3-7 3zm3.5 5.5L11 15l5-5\"/>",
     "visible": "<circle cx=\"12\" cy=\"12\" r=\"2\"/><path d=\"M4 12q8-10 16 0-8 10-16 0z\"/>",
     "vr": "<circle cx=\"8\" cy=\"12\" r=\"2\"/><circle cx=\"16\" cy=\"12\" r=\"2\"/><path d=\"M3 6v12h7l2-2 2 2h7V6z\"/>",
     "warning": "<path d=\"M2 20h20L12 2.68zM12 9v5m0 1v2\"/>",
