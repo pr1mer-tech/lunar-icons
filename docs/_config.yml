@@ -6,12 +6,11 @@ port:        4000
 url:         lucasgruwez.github.io
 baseurl:     /lunar-icons
 
-version:     v2.1.1
+version:     v2.1.2
 gzip:        5kb
 icons:       150+
 
-cdn:         https://unpkg.com/lunar-icons@2.1.1
+cdn:         https://unpkg.com/lunar-icons@2.1.2
 repo:        https://github.com/lucasgruwez/lunar-icons
 npm:         https://npmjs.org/packages/lunar-icons
 author:      https://github.com/lucasgruwez
-
