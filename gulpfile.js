@@ -37,8 +37,8 @@ gulp.task("CSS", () => {
 		});
 		src._read = function() {
 			this.push(new Vinyl({
-				cwd: "",
-				base: "",
+				cwd: "./",
+				base: "./dist/",
 				path: filename,
 				contents: new Buffer(string)
 			}))
