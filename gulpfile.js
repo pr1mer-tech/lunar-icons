@@ -10,7 +10,7 @@ const svgmin = require('gulp-svgmin');
 const rename = require('gulp-rename');
 const header = require('gulp-header');
 const uglify = require('gulp-uglify-es').default;
-const csso = require('gulp-csso');
+const csso = require('csso');
 const Vinyl = require('vinyl');
 const pkg = require('./package.json');
 const head = `/*!
@@ -31,21 +31,6 @@ gulp.task('default', () => {
 gulp.task('docs', config)
 
 gulp.task("CSS", () => {
-	function string_src(filename, string) {
-		const src = require('stream').Readable({
-			objectMode: true
-		});
-		src._read = function() {
-			this.push(new Vinyl({
-				cwd: "./",
-				base: "./dist/",
-				path: filename,
-				contents: new Buffer(string)
-			}))
-			this.push(null)
-		}
-		return src
-	}
 	let css = ""
 	fs.readdir('./src/icons/', (err, files) => {
 		files.forEach(name => {
@@ -53,10 +38,9 @@ gulp.task("CSS", () => {
 			const icon = path.basename(name, '.svg') // removes extension
 			css += `lunar-icon[icon="${icon}"] {content: url(data:image/svg+xml;charset=utf8,${encodeURIComponent(svg)});}`
 		})
+		const minified =  csso.minify(css).css
+		fs.writeFileSync('./dist/lunar-icons.min.css', css)
 	})
-	return string_src("lunar-icons.min.css",css)
-		.pipe(csso())
-		.pipe(gulp.dest('./dist'))
 })
 gulp.task('browserify', () => {
 

@@ -28,7 +28,7 @@
 		"browserify": "^16.2.2",
 		"dom-parser": "^0.1.5",
 		"gulp": "^3.9.1",
-		"gulp-csso": "^3.0.1",
+		"csso": "^3.5.1",
 		"gulp-header": "^2.0.5",
 		"gulp-rename": "^1.2.2",
 		"gulp-svgmin": "^1.2.4",
