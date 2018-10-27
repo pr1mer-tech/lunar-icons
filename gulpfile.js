@@ -11,7 +11,7 @@ const rename = require('gulp-rename');
 const header = require('gulp-header');
 const uglify = require('gulp-uglify-es').default;
 const csso = require('gulp-csso');
-
+const Vinyl = require('vinyl');
 const pkg = require('./package.json');
 const head = `/*!
  * ${pkg.name} - ${pkg.version} - (https://lucasgruwez.github.io/${pkg.name})
@@ -36,7 +36,7 @@ gulp.task("CSS", () => {
 			objectMode: true
 		});
 		src._read = function() {
-			this.push(new gutil.File({
+			this.push(new Vinyl({
 				cwd: "",
 				base: "",
 				path: filename,
