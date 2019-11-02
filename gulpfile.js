@@ -13,6 +13,9 @@ const uglify = require('gulp-uglify-es').default;
 const csso = require('csso');
 const Vinyl = require('vinyl');
 const pkg = require('./package.json');
+const iconfont = require('gulp-iconfont');
+const iconfontCss = require('gulp-iconfont-css');
+
 const head = `/*!
  * ${pkg.name} - ${pkg.version} - (https://lucasgruwez.github.io/${pkg.name})
  * Copyright ${new Date().getFullYear()} Lucas Gruwez.
@@ -30,18 +33,25 @@ async function docs() {
 }
 exports.docs = docs
 
-async function CSS() {
-	let css = ""
-	const files = fs.readdirSync('./src/icons/')
-	files.forEach(name => {
-		const svg = fs.readFileSync(`./src/icons/${name}`).toString().replace(/(\r\n\t|\n|\r\t)/gm, "") // remove line breaks
-		const icon = path.basename(name, '.svg') // removes extension
-		css += `lunar-icon[icon="${icon}"] {content: url(data:image/svg+xml;charset=utf8,${encodeURIComponent(svg)});}`
-	})
-	const minified = csso.minify(css).css
-	fs.writeFileSync('./dist/lunar-icons.min.css', css)
-	await Promise.resolve('finished');
+function CSS() {
+	return gulp.src(['src/icons/*.svg'])
+		.pipe(iconfontCss({
+			fontName: "lunar-icons",
+			path: 'src/icon.css',
+			targetPath: 'lunar-icons.css'
+		}))
+		.pipe(iconfont({
+			fontName: "lunar-icons"
+		}))
+		.pipe(gulp.dest('dist/'));
 }
+async function minCSS() {
+	const css = fs.readFileSync("./dist/lunar-icons.css")
+	const minified = csso.minify(css).css
+ 	fs.writeFileSync('./dist/lunar-icons.min.css', minified)
+ 	await Promise.resolve('finished');
+}
+exports.minCSS = minCSS
 
 exports.CSS = CSS
 async function Browserify() {
@@ -75,4 +85,4 @@ const JSON_ = () => {
 		.pipe(json())
 }
 exports.JSON_ = JSON_
-exports.default = gulp.parallel(JSON_, Browserify, CSS, minify, docs)
+exports.default = gulp.series(JSON_, Browserify, CSS, minify, minCSS, docs)

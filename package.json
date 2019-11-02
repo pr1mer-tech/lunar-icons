@@ -30,6 +30,8 @@
 		"dom-parser": "^0.1.5",
 		"gulp": "^4.0.2",
 		"gulp-header": "^2.0.5",
+		"gulp-iconfont": "^10.0.3",
+		"gulp-iconfont-css": "^3.0.0",
 		"gulp-rename": "^1.2.2",
 		"gulp-svgmin": "^1.2.4",
 		"gulp-uglify-es": "^2.0.0",
