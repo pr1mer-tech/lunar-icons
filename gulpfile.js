@@ -24,25 +24,27 @@ const head = `/*!
 const fs = require('fs');
 const path = require('path')
 
-gulp.task('default', () => {
-	seq('json', 'browserify', 'CSS', 'minify', 'docs')
-})
+async function docs() {
+	config()
+	await Promise.resolve('finished');
+}
+exports.docs = docs
 
-gulp.task('docs', config)
-
-gulp.task("CSS", () => {
+async function CSS() {
 	let css = ""
-	fs.readdir('./src/icons/', (err, files) => {
-		files.forEach(name => {
-			const svg = fs.readFileSync(`./src/icons/${name}`).toString().replace(/(\r\n\t|\n|\r\t)/gm,"") // remove line breaks
-			const icon = path.basename(name, '.svg') // removes extension
-			css += `lunar-icon[icon="${icon}"] {content: url(data:image/svg+xml;charset=utf8,${encodeURIComponent(svg)});}`
-		})
-		const minified =  csso.minify(css).css
-		fs.writeFileSync('./dist/lunar-icons.min.css', css)
+	const files = fs.readdirSync('./src/icons/')
+	files.forEach(name => {
+		const svg = fs.readFileSync(`./src/icons/${name}`).toString().replace(/(\r\n\t|\n|\r\t)/gm, "") // remove line breaks
+		const icon = path.basename(name, '.svg') // removes extension
+		css += `lunar-icon[icon="${icon}"] {content: url(data:image/svg+xml;charset=utf8,${encodeURIComponent(svg)});}`
 	})
-})
-gulp.task('browserify', () => {
+	const minified = csso.minify(css).css
+	fs.writeFileSync('./dist/lunar-icons.min.css', css)
+	await Promise.resolve('finished');
+}
+
+exports.CSS = CSS
+async function Browserify() {
 
 	const b = browserify();
 	b.add('./src/index.js')
@@ -50,10 +52,10 @@ gulp.task('browserify', () => {
 		.pipe(source('lunar-icons.js'))
 		.pipe(header(head))
 		.pipe(gulp.dest('./dist'))
-
-})
-
-gulp.task('minify', () => {
+	await Promise.resolve('finished');
+}
+exports.Browserify = Browserify
+const minify = () => {
 	return gulp.src(['./dist/lunar-icons.js'])
 		.pipe(uglify())
 		.pipe(header(head))
@@ -61,9 +63,9 @@ gulp.task('minify', () => {
 			suffix: '.min'
 		}))
 		.pipe(gulp.dest('./dist'))
-})
-
-gulp.task('json', () => {
+}
+exports.minify = minify
+const JSON_ = () => {
 	return gulp.src('./src/icons/*.svg')
 		.pipe(svgmin({
 			plugins: [{
@@ -71,4 +73,6 @@ gulp.task('json', () => {
 			}]
 		}))
 		.pipe(json())
-});
+}
+exports.JSON_ = JSON_
+exports.default = gulp.parallel(JSON_, Browserify, CSS, minify, docs)
