@@ -3,8 +3,8 @@ highlighter: rouge
 permalink:   pretty
 
 port:        4000
-url:         lucasgruwez.github.io
-baseurl:     /lunar-icons
+url:         lunar.pr1mer.tech
+baseurl:     /
 
 version:     v2.1.2
 gzip:        5kb
