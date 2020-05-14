@@ -1,6 +1,6 @@
 /*!
  * lunar-icons - 2.1.2 - (https://lucasgruwez.github.io/lunar-icons)
- * Copyright 2018 Lucas Gruwez.
+ * Copyright 2020 Lucas Gruwez.
  * Licensed under MIT
  * https://github.com/lucasgruwez/lunar-icons
  */
@@ -17,6 +17,10 @@ module.exports={
     "align_justify": "<path d=\"M4 6h16M4 10h16M4 14h16M4 18h16\"/>",
     "align_left": "<path d=\"M4 6h16M4 10h12M4 14h16M4 18h13\"/>",
     "align_right": "<path d=\"M4 6h16M8 10h12M4 14h16M7 18h13\"/>",
+    "app_store": {
+        "path": "<path d=\"M38.581 28.014h-3.53l2.4 4.149a2.51 2.51 0 1 1-4.348 2.51l-8.9-15.423c-.163-.318-.312-.6-.441-.82a6.847 6.847 0 0 1 1.028-8.2l7.371 12.766h6.429a2.51 2.51 0 1 1-.009 5.018zm-22.915-5.02h7.4a3.651 3.651 0 0 1 3.385 5.02H3.44a2.51 2.51 0 1 1 0-5.02h6.429l8.243-14.278-2.584-4.476a2.51 2.51 0 0 1 4.348-2.51l1.135 1.97 1.135-1.97a2.51 2.51 0 1 1 4.348 2.51zm-9.28 6.033a6.883 6.883 0 0 1 1.162-.1 6.812 6.812 0 0 1 3.963 1.265l-2.588 4.481a2.51 2.51 0 1 1-4.348-2.51z\"/>",
+        "mask": ".cls-1{fill-rule:evenodd}"
+    },
     "apple": "<path d=\"M10 22c2-1 3-1 5 0 3 1 5-5 5-5-3-3-3-5-.5-8C17 6 13 7 12 8c-1-1-8-3-8 5 0 5 4 10 6 9zm2-15c0-3 2-5 4-5 0 3-2 5-4 5\"/>",
     "arrow_down": "<path d=\"M6 12l6 6 6-6m-6-6v12\"/>",
     "arrow_left": "<path d=\"M12 6l-6 6 6 6m-6-6h12\"/>",
@@ -329,7 +333,7 @@ require('./web-components.js')()
  * Replace all <i> tags by svgs
  */
 
-let replace = () => {
+const replace = () => {
 
     if (typeof document === 'undefined') {
         throw new Error('Replacing icons only works in the browser.')
@@ -342,12 +346,12 @@ let replace = () => {
         document.body.classList.add('lunar')
     }
 
-    let iconElements = document.querySelectorAll('i[data-icon]')
+    const iconElements = document.querySelectorAll('i[data-icon]');
 
     Array.from(iconElements).forEach(i => {
-        let name = i.getAttribute('data-icon')
+        const name = i.getAttribute('data-icon');
 
-        if (icons.indexOf(name) > -1) {
+        if (icons.includes(name)) {
             attr = {}
             if (i.id != '') attr.id = i.id
             if (i.classList.contains('lunar-icons')) i.classList.remove('lunar-icons')
@@ -357,7 +361,7 @@ let replace = () => {
         }
 
     })
-}
+};
 
 window.lunarIcons = { icon, icons, replace }
 
@@ -369,54 +373,47 @@ const icons = Object.keys( require('../dist/icons.json') );
 
 const createCustomEl = () => {
 
-	let script = document.createElement('script')
-	script.src = 'https://unpkg.com/@webcomponents/custom-elements@1.1.0/custom-elements.min.js'
-
-	document.head.append(script)
-
 	if (!document.body.classList.contains('lunar')) {
 		document.head.innerHTML += `<style>
 		.lunar-icons {width: 1em; min-width: 1em; height: 1em; min-height: 1em}
 		</style>`
 		document.body.classList.add('lunar')
 	}
-
-	script.onload = () => {
-		class Lunar extends HTMLElement {
-			static get observedAttributes() {
-				return ['icon'];
-			}
-
-			get icon() {
-				return this.getAttribute('icon')
-			}
-
-			set icon(val) {
-				this.setAttribute('icon', val)
-				this.setSVG()
-			}
-
-			constructor() {
-				super();
-			}
-
-			attributeChangedCallback(i,o,n) {
-				this.setSVG(n);
-			}
-
-			setSVG(a) {
-				let iconName =  a ? a : this.icon;
-				this.innerHTML = '';
-				this.append(new icon(iconName).toSVG())
-			}
+	class Lunar extends HTMLElement {
+		static get observedAttributes() {
+			return ['icon'];
 		}
-		customElements.define('lunar-icon', Lunar);
+
+		get icon() {
+			return this.getAttribute('icon')
+		}
+
+		set icon(val) {
+			this.setAttribute('icon', val)
+			this.setSVG()
+		}
+
+		constructor() {
+			super();
+		}
+
+		attributeChangedCallback(i,o,n) {
+			this.setSVG(n);
+		}
+
+		setSVG(a) {
+			let iconName =  a ? a : this.icon;
+			this.innerHTML = '';
+			this.append(new icon(iconName).toSVG())
+		}
 	}
+	customElements.define('lunar-icon', Lunar);
 
 	window.lunarIcons = { icon, icons }
 
 }
 
 module.exports = createCustomEl;
+
 
 },{"../dist/icons.json":1,"../src/icon.js":2}]},{},[3]);
