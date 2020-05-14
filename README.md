@@ -40,9 +40,9 @@ To make the process of using these icons a bit easier, we wrote some JS that wil
 You can either download `lunar-icons.js` or `lunar-icons.min.js` from the `./dist/` folder in this repository, or you can include them via a CDN.
 
 ```html
-<script src="../path/to/lunar-icons.wc.min.js"></script>
+<script src="../path/to/lunar-icons.min.js"></script>
 <!-- Or if you decide to use a CDN -->
-<script src="https://unpkg.com/lunar-icons/dist/lunar-icons.wc.min.js"></script>
+<script src="https://unpkg.com/lunar-icons"></script>
 ```
 
 #### Use icon
@@ -59,13 +59,14 @@ Please feel free to give the lunar-icons repo a star, and if you want to help su
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/lucasgruwez/waffle-grid/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/pr1mer-tech/lunar-icons/tags).
 
 ## Authors
 
 - **Lucas Gruwez** - *Author* - [@lucasgruwez](https://github.com/lucasgruwez)
+- **Arthur Guiot** - *Maintainer* - [@arguiot](https://github.com/arguiot)
 
-See also the list of [contributors](https://github.com/lucasgruwez/waffle-grid/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/pr1mer-tech/lunar-icons/contributors) who participated in this project.
 
 ## License
 
