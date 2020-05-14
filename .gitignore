@@ -80,3 +80,4 @@ desktop.ini
 .DS_Store
 yarn.lock
 docs/.jekyll-cache/
+.jekyll-cache/
