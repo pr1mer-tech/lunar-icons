@@ -1,9 +1,10 @@
-const seq = require('run-sequence');
+const seq = require('gulp4-run-sequence');
 const json = require('./util/icons2json');
 const config = require('./util/config.js');
 
-const browserify = require('browserify');
-const source = require('vinyl-source-stream')
+// const browserify = require('browserify');
+// const source = require('vinyl-source-stream')
+var browserify = require('gulp-browserify');
 
 const gulp = require('gulp');
 const svgmin = require('gulp-svgmin');
@@ -26,16 +27,18 @@ gulp.task('default', () => {
     seq('json', 'browserify', 'minify', 'docs')
 })
 
-gulp.task('docs', config)
+gulp.task('docs', () => {
+    config()
+    return gulp.src('*')
+})
 
 gulp.task('browserify', () => {
 
-	var b = browserify()
-	b.add('./src/index.js')
-	b.bundle()
-		.pipe(source('lunar-icons.js'))
+	return gulp.src(['./src/index.js'])
+        .pipe(browserify())
 		.pipe(header(head))
-		.pipe(gulp.dest('./dist'))
+        .pipe(rename('lunar-icons.js'))
+        .pipe(gulp.dest('./dist'))
 
 })
 

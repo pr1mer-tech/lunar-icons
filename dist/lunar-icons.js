@@ -1,23 +1,23 @@
 /*!
- * lunar-icons - 2.1.2 - (https://lucasgruwez.github.io/lunar-icons)
+ * lunar-icons - 2.1.3 - (https://lucasgruwez.github.io/lunar-icons)
  * Copyright 2020 Lucas Gruwez.
  * Licensed under MIT
  * https://github.com/lucasgruwez/lunar-icons
  */
 
-(function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
+(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);throw new Error("Cannot find module '"+o+"'")}var f=n[o]={exports:{}};t[o][0].call(f.exports,function(e){var n=t[o][1][e];return s(n?n:e)},f,f.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 module.exports={
-    "alarm": "<circle cx=\"12\" cy=\"14\" r=\"8\"/><path d=\"M7.79 3.84a11 11 0 0 0-4.94 4.05m13.36-4.05a11 11 0 0 1 4.94 4.05M12 9v5l3 3\"/>",
-    "alarm_add": "<circle cx=\"12\" cy=\"14\" r=\"8\"/><path d=\"M7.79 3.84a11 11 0 0 0-4.94 4.05m13.36-4.05a11 11 0 0 1 4.94 4.05M12 10v8m-4-4h8\"/>",
+    "alarm": "<circle cx=\"12\" cy=\"14\" r=\"8\"/><path d=\"M7.79 3.84a11 11 0 00-4.94 4.05m13.36-4.05a11 11 0 014.94 4.05M12 9v5l3 3\"/>",
+    "alarm_add": "<circle cx=\"12\" cy=\"14\" r=\"8\"/><path d=\"M7.79 3.84a11 11 0 00-4.94 4.05m13.36-4.05a11 11 0 014.94 4.05M12 10v8m-4-4h8\"/>",
     "alarm_off": {
-        "path": "<path d=\"M2 4l18 18\"/><circle cx=\"12\" cy=\"14\" r=\"8\"/><path d=\"M4.22 6.22a11 11 0 0 0-1.37 1.67m13.36-4.05a11 11 0 0 1 4.94 4.05\"/>",
+        "path": "<path d=\"M2 4l18 18\"/><circle cx=\"12\" cy=\"14\" r=\"8\"/><path d=\"M4.22 6.22a11 11 0 00-1.37 1.67m13.36-4.05a11 11 0 014.94 4.05\"/>",
         "mask": "<path d=\"M.75 0l24 24\" stroke=\"#000\"/>"
     },
     "align_center": "<path d=\"M4 6h16M6 10h12M4 14h16M5.5 18h13\"/>",
     "align_justify": "<path d=\"M4 6h16M4 10h16M4 14h16M4 18h16\"/>",
     "align_left": "<path d=\"M4 6h16M4 10h12M4 14h16M4 18h13\"/>",
     "align_right": "<path d=\"M4 6h16M8 10h12M4 14h16M7 18h13\"/>",
-    "app_store": "<path d=\"M10.534 4.84l1.091 1.892a1 1 0 0 1 0 1l-3.482 6.032a1 1 0 0 1-.866.5H4.56a.06.06 0 0 0 0 .122h8.634a.549.549 0 0 0-.341-.121H9.726a1 1 0 0 1-.866-1.5l4.575-7.924h-2.901zm0 0a.06.06 0 1 1 .105-.06m-.105.06l.105-.06m0 0l.479.832a1 1 0 0 0 1.733 0l.479-.832a.06.06 0 0 1 .06-.03.06.06 0 0 1 .045.09l-2.796-.06zm8.799 9.606a1 1 0 0 0-.03 0h-1.492a1 1 0 0 0-.865 1.5l1.013 1.752a.062.062 0 0 1 .006.046.06.06 0 0 1-.05.045.06.06 0 0 1-.06-.03l-3.749-6.495a8.067 8.067 0 0 0-.2-.37 1.894 1.894 0 0 1-.22-.598l2.038 3.53a1 1 0 0 0 .866.5h2.716l.027-.001c.008 0 .016.001.024.004a.061.061 0 0 1 .038.057.06.06 0 0 1-.018.043.06.06 0 0 1-.044.017zM5.906 17.638l.5-.864.132.012-.527.913a.061.061 0 0 1-.037.028.06.06 0 0 1-.068-.088z\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linejoin=\"round\"/><circle cx=\"12\" cy=\"12\" r=\"11\" stroke=\"currentColor\" stroke-width=\"2\"/>",
+    "app_store": "<path d=\"M5.5 18.5L7 16m1-2l6-10M4 14h9m3 0h4m-1.5 4.5l-4.8-8.2M12 7.4L10 4\"/><circle cx=\"12\" cy=\"12\" r=\"11\"/>",
     "apple": "<path d=\"M10 22c2-1 3-1 5 0 3 1 5-5 5-5-3-3-3-5-.5-8C17 6 13 7 12 8c-1-1-8-3-8 5 0 5 4 10 6 9zm2-15c0-3 2-5 4-5 0 3-2 5-4 5\"/>",
     "arrow_down": "<path d=\"M6 12l6 6 6-6m-6-6v12\"/>",
     "arrow_left": "<path d=\"M12 6l-6 6 6 6m-6-6h12\"/>",
@@ -25,12 +25,12 @@ module.exports={
     "arrow_up": "<path d=\"M6 12l6-6 6 6m-6-6v12\"/>",
     "battery": "<path d=\"M10 4h4M8 20h8V7H8z\"/>",
     "battery_low": "<path d=\"M10 4h4M8 20h8V7H8zM12 9v6m0 1v2\"/>",
-    "bell": "<path d=\"M4 19q2 0 2-5 0-9 6-9t6 9q0 5 2 5zm6 0a2 2 0 0 0 4 0\"/>",
+    "bell": "<path d=\"M4 19q2 0 2-5 0-9 6-9t6 9q0 5 2 5zm6 0a2 2 0 004 0\"/>",
     "bell_off": {
-        "path": "<path d=\"M2 2l20 20M4 19q2 0 2-5 0-9 6-9t6 9q0 5 2 5zm6 0a2 2 0 0 0 4 0\"/>",
+        "path": "<path d=\"M2 2l20 20M4 19q2 0 2-5 0-9 6-9t6 9q0 5 2 5zm6 0a2 2 0 004 0\"/>",
         "mask": "<path stroke=\"#000\" d=\"M2.75 0l24 24\"/>"
     },
-    "bell_ringing": "<path d=\"M4 19q2 0 2-5 0-9 6-9t6 9q0 5 2 5zm6 0a2 2 0 0 0 4 0M5 5q-1.5 2-2.25 7M19 5q1.5 2 2.25 7\"/>",
+    "bell_ringing": "<path d=\"M4 19q2 0 2-5 0-9 6-9t6 9q0 5 2 5zm6 0a2 2 0 004 0M5 5q-1.5 2-2.25 7M19 5q1.5 2 2.25 7\"/>",
     "bitcoin": "<path d=\"M8 6h5c4 0 4 6 0 6H8zm0 6h6c4 0 4 6 0 6H8zm2-6V3m3 3V3m-3 15v3m3-3v3\"/>",
     "bluetooth": "<path d=\"M7 7l10 10-5 5V2l5 5L7 17\"/>",
     "bluetooth_off": {
@@ -49,7 +49,7 @@ module.exports={
     "cart_clear": "<path d=\"M2 4h3l2 12h13l1-9H6m5.5 2.5l4 4m-4 0l4-4\"/><circle cx=\"9\" cy=\"19\" r=\"2\"/><circle cx=\"18\" cy=\"19\" r=\"2\"/>",
     "cart_remove": "<path d=\"M2 4h3l2 12h13l1-9H6m5 4.5h5\"/><circle cx=\"9\" cy=\"19\" r=\"2\"/><circle cx=\"18\" cy=\"19\" r=\"2\"/>",
     "cash": "<path d=\"M2 6.5h20v11H2zM2 10q3 0 3-3m-3 7q3 0 3 3m17-7q-3 0-3-3m3 7q-3 0-3 3M6 12h2m8 0h2\"/><ellipse cx=\"12\" cy=\"12\" rx=\"1.5\" ry=\"2\"/>",
-    "cd": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><circle cx=\"12\" cy=\"12\" r=\"2\"/><path d=\"M9.7 6.46A6 6 0 0 0 6 12m8.3 5.54A6 6 0 0 0 18 12\"/>",
+    "cd": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><circle cx=\"12\" cy=\"12\" r=\"2\"/><path d=\"M9.7 6.46A6 6 0 006 12m8.3 5.54A6 6 0 0018 12\"/>",
     "chat": "<path d=\"M4 4h16v11H8l-4 5z\"/>",
     "check": "<path d=\"M4 12l5 5L20 6\"/>",
     "cheveron_down": "<path d=\"M6 9l6 6 6-6\"/>",
@@ -58,17 +58,17 @@ module.exports={
     "cheveron_up": "<path d=\"M6 15l6-6 6 6\"/>",
     "clipboard": "<path d=\"M16 4h3v17H5V4h3m1-1v3h6V3z\"/>",
     "clock": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 6v6l4 4\"/>",
-    "cloud": "<path d=\"M18 19a4 4 0 1 0 0-8 5.5 5.5 0 0 0-11-1 4.5 4.5 0 1 0 0 9z\"/>",
-    "cloud_download": "<path d=\"M18 17a4 4 0 1 0 0-8A5.5 5.5 0 0 0 7 8a4.5 4.5 0 1 0-1.1 9H6m6-5v10m-4-4l4 4 4-4\"/>",
+    "cloud": "<path d=\"M18 19a4 4 0 100-8 5.5 5.5 0 00-11-1 4.5 4.5 0 100 9z\"/>",
+    "cloud_download": "<path d=\"M18 17a4 4 0 100-8A5.5 5.5 0 007 8a4.5 4.5 0 10-1.1 9H6m6-5v10m-4-4l4 4 4-4\"/>",
     "cloud_off": {
-        "path": "<path d=\"M2 2l20 20M18 19a4 4 0 1 0 0-8 5.5 5.5 0 0 0-11-1 4.5 4.5 0 1 0 0 9z\"/>",
+        "path": "<path d=\"M2 2l20 20M18 19a4 4 0 100-8 5.5 5.5 0 00-11-1 4.5 4.5 0 100 9z\"/>",
         "mask": "<path stroke=\"#000\" d=\"M2.75 0l24 24\"/>"
     },
-    "cloud_upload": "<path d=\"M18 17a4 4 0 1 0 0-8A5.5 5.5 0 0 0 7 8a4.5 4.5 0 1 0-1.1 9H6m6-5v10m-4-6l4-4 4 4\"/>",
+    "cloud_upload": "<path d=\"M18 17a4 4 0 100-8A5.5 5.5 0 007 8a4.5 4.5 0 10-1.1 9H6m6-5v10m-4-6l4-4 4 4\"/>",
     "code": "<path d=\"M7 7l-5 5 5 5M17 7l5 5-5 5m-8 2l6-14\"/>",
     "codepen": "<path d=\"M12 2l10 7v6l-10 7-10-7V9zM2 9l10 6 10-6M2 15l10-6 10 6M12 2v7.5m0 5.5v7\"/>",
     "copy": "<path d=\"M8 4h10v13H8zM5 5v15h12\"/>",
-    "copyright": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M16 9a5 5 0 1 0 0 6\"/>",
+    "copyright": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M16 9a5 5 0 100 6\"/>",
     "credit_card": "<path d=\"M4 6h16v12H4zm0 4h16\"/>",
     "crop": "<path d=\"M6 2v16h16M2 6h4m12 16v-4M8 6h10v10\"/>",
     "data": "<path d=\"M4 20h16V4z\"/>",
@@ -77,7 +77,7 @@ module.exports={
         "mask": "<path stroke=\"#000\" d=\"M2.75 0l24 24\"/>"
     },
     "disc": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>",
-    "discord": "<path d=\"M18.952 15.72s-1.022.686-1.732 1.02c-1.88.885-3.143 1.02-5.22 1.02s-3.34-.136-5.22-1.02c-.71-.334-1.733-1.02-1.733-1.02m3.135 2.01l-.99 1.358-.202.097s-1.644-.212-2.603-.63c-1.306-.568-2.91-2.197-2.91-2.197l-.03-.12s.326-4.181 1.103-6.728c.314-1.028.458-1.628.945-2.587.284-.56.419-.901.825-1.38 1.236-1.459 4.605-1.665 4.605-1.665l.24.142.18.585M5.737 6.45S8.865 4.781 12 4.8c3.135.02 6.262 1.65 6.262 1.65m-2.445 11.28l.99 1.358.203.097s1.643-.212 2.602-.63c1.306-.568 2.91-2.197 2.91-2.197l.03-.12s-.325-4.181-1.102-6.728c-.314-1.028-.459-1.628-.945-2.587-.284-.56-.42-.901-.825-1.38-1.236-1.459-4.605-1.665-4.605-1.665l-.24.142-.18.585M8.88 10.56c.996 0 1.68.924 1.68 1.92 0 .997-.684 1.92-1.68 1.92-.997 0-1.68-.923-1.68-1.92 0-.996.683-1.92 1.68-1.92zm4.56 1.92c0-.996.683-1.92 1.68-1.92.996 0 1.68.924 1.68 1.92 0 .997-.684 1.92-1.68 1.92-.997 0-1.68-.923-1.68-1.92z\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linejoin=\"round\"/>",
+    "discord": "<ellipse cx=\"8.7\" cy=\"12.5\" rx=\"1.6\" ry=\"2\"/><ellipse cx=\"15.3\" cy=\"12.5\" rx=\"1.6\" ry=\"2\"/><path d=\"M16 17l1 2q4 0 5.5-3Q22 4 15 4l-.3 1M8 17l-1 2q-4 0-5.5-3Q2 4 9 4l.3 1M6 6q6-2.5 12 0M5 16q7 3 14 0\"/>",
     "discussion": "<path d=\"M4 7Q3 7 3 8v13l4-5h7q1 0 1-1m6-12v14l-4-4H6V3z\"/>",
     "divide": "<path d=\"M6 12h12m-7-5h2m-2 10h2\"/>",
     "doughnut_chart": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/><path d=\"M12 2v8m2 2h8m-8.5 2l4.5 6\"/>",
@@ -104,10 +104,10 @@ module.exports={
     "game_controler": "<path d=\"M2 7h20v10H2zm3 5h6M8 9v6m6-2h2m1-2h2\"/>",
     "github": "<path d=\"M8.5 23v-5c0-1 .5-2 1-2.5-3 0-6-1.5-6-6.5 0-1.5.5-2.5 1.5-3.5C5 5.5 4.5 4 5 2c0 0 1-.5 3.5 1.5C9.5 3 11 3 12 3s2 0 3.5.5C18 1.5 19 2 19 2c.5 2 0 3.5 0 3.5 1 1 1.5 2 1.5 3.5 0 5-3 6.5-6 6.5.5.5 1 1.5 1 2.5v5M9 20c-5 1-3-4-7-4\"/>",
     "gitlab": "<path d=\"M12 21L2 14 5.7 3l2.8 7h7l2.8-7L22 14z\"/>",
-    "google_play": "<path d=\"M2 1v22M2 1l9.92 5.433 3.266 1.826M2 1l9.7 10.95M2 23l9.759-5.418 3.427-1.92M2 23l9.7-11.05m0 0l3.486 3.712M11.7 11.95l3.486-3.691m0 7.403l6.614-3.705-6.614-3.698\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>",
-    "heart": "<path d=\"M19.18 12.18L12 19.36l-7.18-7.18A4.5 4.5 0 1 1 12 6.5a4.5 4.5 0 1 1 7.18 5.68z\"/>",
-    "help": "<path d=\"M9 10a3 3 0 1 1 3 3v2m0 1v2\"/><circle cx=\"12\" cy=\"12\" r=\"10\"/>",
-    "history": "<path d=\"M3.52 15v.3a9 9 0 1 0 2.12-9.66L3 8m6 0H3V2m9 4v6l4 4\"/>",
+    "google_play": "<path d=\"M4 2v20l16-10zm11 13L4 2m11 7L4 22\"/>",
+    "heart": "<path d=\"M19.18 12.18L12 19.36l-7.18-7.18A4.5 4.5 0 1112 6.5a4.5 4.5 0 117.18 5.68z\"/>",
+    "help": "<path d=\"M9 10a3 3 0 113 3v2m0 1v2\"/><circle cx=\"12\" cy=\"12\" r=\"10\"/>",
+    "history": "<path d=\"M3.52 15v.3a9 9 0 102.12-9.66L3 8m6 0H3V2m9 4v6l4 4\"/>",
     "home": "<path d=\"M6 10v10h12V10M3 13l9-9 9 9m-11 7v-8h4v8\"/>",
     "hospital": "<path d=\"M9 4h6v5h5v6h-5v5H9v-5H4V9h5z\"/>",
     "image": "<path d=\"M4 4v16h16V4zm0 12l4-4 8 8m-5-5l5-5 4 4M8 8h2\"/>",
@@ -115,7 +115,7 @@ module.exports={
     "info": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 16v-5m0-3v2\"/>",
     "instagram": "<circle cx=\"12\" cy=\"12\" r=\"5\"/><circle cx=\"18\" cy=\"6\" r=\".4\"/><path d=\"M8 2h8c4 0 6 2 6 6v8c0 4-2 6-6 6H8c-4 0-6-2-6-6V8c0-4 2-6 6-6z\"/>",
     "invisible": {
-        "path": "<path d=\"M2 2l20 20M12 10a2 2 0 1 0 2 2\"/><path d=\"M4 12q8-10 16 0-8 10-16 0z\"/>",
+        "path": "<path d=\"M2 2l20 20M12 10a2 2 0 102 2\"/><path d=\"M4 12q8-10 16 0-8 10-16 0z\"/>",
         "mask": "<path stroke=\"#000\" d=\"M2.75 0l24 24\"/>"
     },
     "justice": "<path d=\"M8 20h8zm4 0V3M5 7h2c3-2 7-2 10 0h2M3 15l2-8 2 8zm14 0l2-8 2 8z\"/>",
@@ -126,28 +126,28 @@ module.exports={
     "layout_fluid": "<path d=\"M2 2h8v11H2zm12 0h8v6h-8zM2 17h8v5H2zm12-5h8v10h-8z\"/>",
     "layout_grid": "<path d=\"M2 2h8v8H2zm12 0h8v8h-8zM2 14h8v8H2zm12 0h8v8h-8z\"/>",
     "library": "<path d=\"M4 4v16M8 7v13m4-14v14m4-14l4 14\"/>",
-    "lightbulb": "<path d=\"M9 20h6m-5-3h4v-3a5.17 5.17 0 1 0-4 0z\"/>",
+    "lightbulb": "<path d=\"M9 20h6m-5-3h4v-3a5.17 5.17 0 10-4 0z\"/>",
     "lightning": "<path d=\"M7 4v10h4v6l5-10h-5l2-6z\"/>",
     "lightning_off": {
         "path": "<path d=\"M2 2l20 20M7 4v10h4v6l5-10h-5l2-6z\"/>",
         "mask": "<path stroke=\"#000\" d=\"M2.75 0l24 24\"/>"
     },
-    "link": "<path d=\"M10 14l4-4m-3-1l3-3a1 1 0 0 1 4 4l-3 3m-6-2l-3 3a1 1 0 0 0 4 4l3-3\"/>",
+    "link": "<path d=\"M10 14l4-4m-3-1l3-3a1 1 0 014 4l-3 3m-6-2l-3 3a1 1 0 004 4l3-3\"/>",
     "link_external": "<path d=\"M12 12l8-8m-6 0h6v6m-8-6H4v16h16v-8\"/>",
     "list": "<path d=\"M4 8h2m2 0h12M4 12h2m2 0h12M4 16h2m2 0h12\"/>",
-    "location": "<path d=\"M12 20l5-6a6.5 6.5 0 1 0-10 0z\"/><circle cx=\"12\" cy=\"10\" r=\"1.5\"/>",
-    "location_add": "<path d=\"M12 20l5-6a6.5 6.5 0 1 0-10 0zM9 10h6m-3-3v6\"/>",
+    "location": "<path d=\"M12 20l5-6a6.5 6.5 0 10-10 0z\"/><circle cx=\"12\" cy=\"10\" r=\"1.5\"/>",
+    "location_add": "<path d=\"M12 20l5-6a6.5 6.5 0 10-10 0zM9 10h6m-3-3v6\"/>",
     "location_off": {
-        "path": "<path d=\"M2 2l20 20M12 20l5-6a6.5 6.5 0 1 0-10 0z\"/>",
+        "path": "<path d=\"M2 2l20 20M12 20l5-6a6.5 6.5 0 10-10 0z\"/>",
         "mask": "<path stroke=\"#000\" d=\"M2.75 0l24 24\"/>"
     },
-    "location_remove": "<path d=\"M12 20l5-6a6.5 6.5 0 1 0-10 0zM9 10h6\"/>",
-    "lock": "<path d=\"M4 12h16v10H4zm8 3.5v3M6 11V8a6 6 0 0 1 12 0v3\"/>",
+    "location_remove": "<path d=\"M12 20l5-6a6.5 6.5 0 10-10 0zM9 10h6\"/>",
+    "lock": "<path d=\"M4 12h16v10H4zm8 3.5v3M6 11V8a6 6 0 0112 0v3\"/>",
     "lock_off": {
-        "path": "<path d=\"M2 2l20 20M4 12h16v10H4zm8 3.5v3M6 11V8a6 6 0 0 1 12 0v3\"/>",
+        "path": "<path d=\"M2 2l20 20M4 12h16v10H4zm8 3.5v3M6 11V8a6 6 0 0112 0v3\"/>",
         "mask": "<path stroke=\"#000\" d=\"M2.75 0l24 24\"/>"
     },
-    "lock_open": "<path d=\"M4 12h16v10H4zm8 3.5v3M6 8a6 6 0 0 1 12 0v3\"/>",
+    "lock_open": "<path d=\"M4 12h16v10H4zm8 3.5v3M6 8a6 6 0 0112 0v3\"/>",
     "mail": "<path d=\"M4 6h16v12H4zm0 0l8 6 8-6\"/>",
     "mail_open": "<path d=\"M20 9v12H4V9m0 0l8 6 8-6-8-6z\"/>",
     "menu": "<path d=\"M4 6h16M4 12h16M4 18h16\"/>",
@@ -172,7 +172,7 @@ module.exports={
     "music": "<path d=\"M8 18V6l11-2v12M8 9l11-2\"/><circle cx=\"6\" cy=\"18\" r=\"2\"/><circle cx=\"17\" cy=\"16\" r=\"2\"/>",
     "olympics": "<circle cx=\"6\" cy=\"10\" r=\"3\"/><circle cx=\"12\" cy=\"10\" r=\"3\"/><circle cx=\"18\" cy=\"10\" r=\"3\"/><circle cx=\"9\" cy=\"14\" r=\"3\"/><circle cx=\"15\" cy=\"14\" r=\"3\"/>",
     "pause": "<path d=\"M8 6v12m8-12v12\"/>",
-    "person": "<circle cx=\"12\" cy=\"8.5\" r=\"4\"/><path d=\"M5 20a8 8 0 0 1 14 0\"/>",
+    "person": "<circle cx=\"12\" cy=\"8.5\" r=\"4\"/><path d=\"M5 20a8 8 0 0114 0\"/>",
     "phone": "<path d=\"M6 11l3-3-1-4H4c0 9 7 16 16 16v-4l-4-1-3 3\"/>",
     "phone_down": "<path d=\"M8 10v3l-3.5 2.5-2-2.5C8 8 16 8 21.5 13l-2 2.5L16 13v-3\"/>",
     "phone_off": {
@@ -183,14 +183,14 @@ module.exports={
     "play": "<path d=\"M7.5 6v12l9-6z\"/>",
     "plus": "<path d=\"M4 12h16m-8-8v16\"/>",
     "plus_circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 7v10m-5-5h10\"/>",
-    "pound": "<path d=\"M16 8a4 4 0 0 0-8 0v6q0 6-2 6h12M6 12h6\"/>",
-    "power": "<path d=\"M8 5.07a8 8 0 1 0 8 0M12 2v10\"/>",
+    "pound": "<path d=\"M16 8a4 4 0 00-8 0v6q0 6-2 6h12M6 12h6\"/>",
+    "power": "<path d=\"M8 5.07a8 8 0 108 0M12 2v10\"/>",
     "print": "<path d=\"M17 17h3v-6q0-2-2-2H6q-2 0-2 2v6h3m1-3v6h8v-6m-9-.5h10M8 8V4h8v4\"/>",
     "recording": "<path d=\"M2 5h20v14H2zm6 9h8\"/><circle cx=\"8\" cy=\"12\" r=\"2\"/><circle cx=\"16\" cy=\"12\" r=\"2\"/>",
-    "refresh_ccw": "<path d=\"M3.16 15a9 9 0 0 0 15.2 3.36L21 16m-6 0h6v6M20.48 9A9 9 0 0 0 5.64 5.64L3 8m6 0H3V2\"/>",
-    "refresh_cw": "<path d=\"M3.16 9a9 9 0 0 1 15.2-3.36L21 8m-6 0h6V2M20.48 15a9 9 0 0 1-14.84 3.36L3 16m6 0H3v6\"/>",
-    "rotate_ccw": "<path d=\"M3.52 15v.3a9 9 0 1 0 2.12-9.66L3 8m6 0H3V2\"/>",
-    "rotate_cw": "<path d=\"M20.48 15v.3a9 9 0 1 1-2.12-9.66L21 8m-6 0h6V2\"/>",
+    "refresh_ccw": "<path d=\"M3.16 15a9 9 0 0015.2 3.36L21 16m-6 0h6v6M20.48 9A9 9 0 005.64 5.64L3 8m6 0H3V2\"/>",
+    "refresh_cw": "<path d=\"M3.16 9a9 9 0 0115.2-3.36L21 8m-6 0h6V2M20.48 15a9 9 0 01-14.84 3.36L3 16m6 0H3v6\"/>",
+    "rotate_ccw": "<path d=\"M3.52 15v.3a9 9 0 102.12-9.66L3 8m6 0H3V2\"/>",
+    "rotate_cw": "<path d=\"M20.48 15v.3a9 9 0 11-2.12-9.66L21 8m-6 0h6V2\"/>",
     "save": "<path d=\"M4 4h12l4 4v12H4zm4 0v6h8V4\"/><circle cx=\"12\" cy=\"15\" r=\"2\"/>",
     "school": "<path d=\"M2 10l10-5 10 5-10 5zm20 0v9M6 12v3.5l6 3 6-3V12\"/>",
     "search": "<circle cx=\"15\" cy=\"9\" r=\"6\"/><path d=\"M3 21l8-8\"/>",
@@ -229,18 +229,66 @@ module.exports={
     "warning_circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 7v7m0 1v2\"/>",
     "watch": "<circle cx=\"12\" cy=\"12\" r=\"6\"/><path d=\"M7.5 8L9 2h6l1.5 6m-9 8L9 22h6l1.5-6M12 8.5V12l2 2\"/>",
     "weights": "<path d=\"M6 12h12M6 7v10M3 9v6m15-8v10m3-8v6\"/>",
-    "wifi": "<path d=\"M12 19L22 9A14.14 14.14 0 0 0 2 9z\"/>",
+    "wifi": "<path d=\"M12 19L22 9A14.14 14.14 0 002 9z\"/>",
     "wifi_off": {
-        "path": "<path d=\"M2 2l20 20M12 19L22 9A14.14 14.14 0 0 0 2 9z\"/>",
+        "path": "<path d=\"M2 2l20 20M12 19L22 9A14.14 14.14 0 002 9z\"/>",
         "mask": "<path stroke=\"#000\" d=\"M2.75 0l24 24\"/>"
     },
     "windows": "<path d=\"M4 7l16-3v16L4 17zm0 5h16m-8.5-7v14\"/>",
-    "youtube": "<path d=\"M21.5 7A3 3 0 0 0 20 5.5C18.5 5 12 5 12 5s-6 0-8 .5A3 3 0 0 0 2.5 7a31 31 0 0 0-.5 5 31 31 0 0 0 .5 5A3 3 0 0 0 4 18.5c1.5.5 8 .5 8 .5s6.5 0 8-.5a3 3 0 0 0 1.5-1.5 31 31 0 0 0 .5-5 31 31 0 0 0-.5-5zM10 15V9l5 3z\"/>",
+    "youtube": "<path d=\"M21.5 7A3 3 0 0020 5.5C18.5 5 12 5 12 5s-6 0-8 .5A3 3 0 002.5 7a31 31 0 00-.5 5 31 31 0 00.5 5A3 3 0 004 18.5c1.5.5 8 .5 8 .5s6.5 0 8-.5a3 3 0 001.5-1.5 31 31 0 00.5-5 31 31 0 00-.5-5zM10 15V9l5 3z\"/>",
     "zip": "<path d=\"M4 2h10l6 6v14H4zm4 1v2m2 0v2M8 7v2m2 0v2m-2 0v2m2 0v2m-2 0v2\"/>",
     "zoom_in": "<circle cx=\"15\" cy=\"9\" r=\"6\"/><path d=\"M3 21l8-8m1-4h6m-3-3v6\"/>",
     "zoom_out": "<circle cx=\"15\" cy=\"9\" r=\"6\"/><path d=\"M3 21l8-8m1-4h6\"/>"
 }
 },{}],2:[function(require,module,exports){
+const icon = require('./icon.js')
+const icons = Object.keys( require('../dist/icons.json') )
+
+require('./web-components.js')()
+
+/* =============================================================================
+ * Function used to replace icons by svg
+ * ========================================================================== */
+
+/**
+ * Replace all <i> tags by svgs
+ */
+
+const replace = () => {
+
+    if (typeof document === 'undefined') {
+        throw new Error('Replacing icons only works in the browser.')
+    }
+
+    if (!document.body.classList.contains('lunar')) {
+        document.head.innerHTML += `<style>
+            .lunar-icons {width: 1em; min-width: 1em; height: 1em; min-height: 1em}
+            </style>`
+        document.body.classList.add('lunar')
+    }
+
+    const iconElements = document.querySelectorAll('i[data-icon]');
+
+    Array.from(iconElements).forEach(i => {
+        const name = i.getAttribute('data-icon');
+
+        if (icons.includes(name)) {
+            attr = {}
+            if (i.id != '') attr.id = i.id
+            if (i.classList.contains('lunar-icons')) i.classList.remove('lunar-icons')
+            if (i.classList.length > 0) attr.class = i.classList.toString()
+
+            i.parentNode.replaceChild(new icon(name).toSVG(attr), i);
+        }
+
+    })
+};
+
+window.lunarIcons = { icon, icons, replace }
+
+document.addEventListener('DOMContentLoaded', lunarIcons.replace)
+
+},{"../dist/icons.json":1,"./icon.js":3,"./web-components.js":4}],3:[function(require,module,exports){
 const icons = require('../dist/icons.json');
 const defaults = {
     xmlns: "http://www.w3.org/2000/svg",
@@ -318,55 +366,7 @@ module.exports = class Icon {
     }
 }
 
-},{"../dist/icons.json":1}],3:[function(require,module,exports){
-const icon = require('./icon.js')
-const icons = Object.keys( require('../dist/icons.json') )
-
-require('./web-components.js')()
-
-/* =============================================================================
- * Function used to replace icons by svg
- * ========================================================================== */
-
-/**
- * Replace all <i> tags by svgs
- */
-
-const replace = () => {
-
-    if (typeof document === 'undefined') {
-        throw new Error('Replacing icons only works in the browser.')
-    }
-
-    if (!document.body.classList.contains('lunar')) {
-        document.head.innerHTML += `<style>
-            .lunar-icons {width: 1em; min-width: 1em; height: 1em; min-height: 1em}
-            </style>`
-        document.body.classList.add('lunar')
-    }
-
-    const iconElements = document.querySelectorAll('i[data-icon]');
-
-    Array.from(iconElements).forEach(i => {
-        const name = i.getAttribute('data-icon');
-
-        if (icons.includes(name)) {
-            attr = {}
-            if (i.id != '') attr.id = i.id
-            if (i.classList.contains('lunar-icons')) i.classList.remove('lunar-icons')
-            if (i.classList.length > 0) attr.class = i.classList.toString()
-
-            i.parentNode.replaceChild(new icon(name).toSVG(attr), i);
-        }
-
-    })
-};
-
-window.lunarIcons = { icon, icons, replace }
-
-document.addEventListener('DOMContentLoaded', lunarIcons.replace)
-
-},{"../dist/icons.json":1,"./icon.js":2,"./web-components.js":4}],4:[function(require,module,exports){
+},{"../dist/icons.json":1}],4:[function(require,module,exports){
 const icon = require('../src/icon.js');
 const icons = Object.keys( require('../dist/icons.json') );
 
@@ -415,4 +415,4 @@ const createCustomEl = () => {
 module.exports = createCustomEl;
 
 
-},{"../dist/icons.json":1,"../src/icon.js":2}]},{},[3]);
+},{"../dist/icons.json":1,"../src/icon.js":3}]},{},[2])

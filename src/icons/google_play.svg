@@ -1,8 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg"
+<svg
+    xmlns="http://www.w3.org/2000/svg"
     height="24"
     width="24"
     viewBox="0 0 24 24"
-    fill="none">
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round" >
     <title>Google Play</title>
-    <path d="M2 1V11.9569V23M2 1L11.9204 6.43296L15.1858 8.25878M2 1L11.7001 11.9499M2 23L11.7587 17.5817L15.1858 15.6619M2 23L11.7001 11.9499M11.7001 11.9499L15.1858 15.6619M11.7001 11.9499L15.1858 8.25878M15.1858 15.6619L21.7998 11.9569L15.1858 8.25878" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 4 2L 4 22 L 20 12ZM 15 15 L 4 2M 15 9L 4 22" />
 </svg>
