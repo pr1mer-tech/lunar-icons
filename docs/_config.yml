@@ -10,7 +10,7 @@ version:     v2.1.3
 gzip:        5kb
 icons:       150+
 
-cdn:         https://cdn.jsdelivr.net/npm/lunar-icons
+cdn:         https://unpkg.com/lunar-icons
 repo:        https://github.com/lucasgruwez/lunar-icons
 npm:         https://npmjs.org/packages/lunar-icons
 author:      https://github.com/lucasgruwez
