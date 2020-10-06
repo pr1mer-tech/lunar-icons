@@ -73,4 +73,21 @@ module.exports = class Icon {
     toString() {
         return this.toSVG().toString()
     }
+
+    /**
+     * Generate an icon's SVG
+	 * @param  {object}      attr Attributes to add to SVG
+     * @return {String}      HTML string of SVG
+     */
+    toSVGString(attr) {
+        attr = Object.assign({}, this.attr, attr)
+        if (attr.class) attr.class += ' lunar-icons'
+        else attr.class = 'lunar-icons'
+
+        let attributes = ''
+        for (let a in attr) attributes += `${a}="${attr[a]}" `
+
+        let str = `<svg ${attributes}>${this.path}</svg>`
+        return str
+    }
 }
